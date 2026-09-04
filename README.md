@@ -175,6 +175,7 @@ The two chains share history up to 961,631. A transaction signed the usual way i
 
 - [Knots PR #359](https://github.com/bitcoinknots/bitcoin/pull/359) - The hardfork pull request: header v2, BLAKE2b PoW, test vectors. [PR #385](https://github.com/bitcoinknots/bitcoin/pull/385) sets the mainnet and testnet4 parameters, [PR #358](https://github.com/bitcoinknots/bitcoin/pull/358) activates RDTS at the fork, [PR #357](https://github.com/bitcoinknots/bitcoin/pull/357) is the unified sighash.
 - [BIP-110: Reduced Data Temporary Softfork](https://bips.dev/110/) - The original RDTS proposal.
+- [BIP110 code review for humans](https://bitcoinknots.org/learn/bip110-code-walkthrough) - Line-by-line walkthrough of the RDTS consensus code, 77 changed lines across five files, written for non-developers.
 - [BKIP-0001: The BLAKE2b hardfork](https://github.com/DarkWebDivingClub/bkips) - Written spec of the v2 header and unified sighash, checked against the PR test vectors. Draft, and it says so: where Knots and the document disagree, Knots is correct.
 - [btc-blake2b.org](https://btc-blake2b.org/) - Community site for the fork, also served as bitcoin-blake2b.org and reached via the bitcoinknots.org/learn/2026-blake2b link in the release notes. Pages for [getting started](https://btc-blake2b.org/getting-started), [how it works](https://btc-blake2b.org/how-it-works), [what you need to know](https://btc-blake2b.org/you-need-to-know), [node operators](https://btc-blake2b.org/nodes), [miners and DATUM](https://btc-blake2b.org/miners), [solo mining](https://btc-blake2b.org/mining), [developers](https://btc-blake2b.org/developers) and [FAQ](https://btc-blake2b.org/faq). Source at [innerhat-dev/bitcoin-blake2b.org](https://github.com/innerhat-dev/bitcoin-blake2b.org).
 - [bitcoinbip110.org](https://github.com/Bitcoin-BIP110/bitcoinbip110.github.io) - Technical reference and network observatory that keeps BIP 110, the enforcement branch, and the BLAKE2b chain terminologically distinct. Cites primary sources.
@@ -182,6 +183,9 @@ The two chains share history up to 961,631. A transaction signed the usual way i
 
 ## Community and news
 
+- [Bitcoin Knots Discord](https://discord.gg/3Ccegp9YrU) - Official Knots server linked from bitcoinknots.org. About 2,900 members.
+- [Bitcoin Knots Telegram](https://t.me/Bitcoin_Knots) - Official Knots chat, reached from bitcoinknots.org through a [warning page](https://bitcoinknots.org/warning.html) worth reading first: direct messages are almost always scammers, and requests to install or update software are usually an attack.
+- [Bitcoin Knots on X](https://x.com/BitcoinKnots) - Release announcements.
 - [PaulsCode forum: Knots 29.4 BIP-110 blocks](https://paulscode.com/t/knots-29-4-8-05-2026-bip-110-blocks/1240) - Support thread, started 30 August, on the Start9 and Umbrel Knots packages across the fork.
 - [Bitcoin BLAKE2b hard fork explained (CryptoDad Q&A)](https://www.youtube.com/watch?v=_dZQ-I2OEo4) - Pre-activation video Q&A from 29 August.
 - [Joint statement of OCEAN and Luke Dashjr](https://www.prnewswire.com/news-releases/joint-statement-of-ocean-and-luke-dashjr-302864347.html) - Primary source on the OCEAN separation and CONVOY, 29 August.
