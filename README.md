@@ -94,7 +94,7 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 
 ### Gateways and miner software
 
-- [CONVOY DATUM Gateway](https://github.com/CONVOYMining/datum_gateway) - The BLAKE2b and header-v2 DATUM Gateway recommended by bitcoin-blake2b.org for mainnet solo mining. Fork of Luke Dashjr's gateway. Use commit `56c31f4` or later, earlier builds reported false block-found and high-hash errors.
+- [CONVOY DATUM Gateway](https://github.com/CONVOYMining/datum_gateway) - The BLAKE2b and header-v2 DATUM Gateway recommended by btc-blake2b.org for mainnet solo mining. Fork of Luke Dashjr's gateway. Use commit `56c31f4` or later, earlier builds reported false block-found and high-hash errors.
 - [luke-jr/datum_gateway](https://github.com/luke-jr/datum_gateway) - Upstream DATUM Gateway, which merged the `blake2b` branch and rebranded for CONVOY on 1 September. Hides the network target from BLAKE2b hashers.
 - [ratum](https://github.com/iohzrd/ratum) - Rust reimplementation of DATUM. The gateway serves v2 headers to BLAKE2b hardware over the Siacoin dialect of Stratum v1, and RATUM Prime is a DATUM pool server with a stats page and an operator fee of at most 1%. *New.*
 - [iohzrd/datum_gateway](https://github.com/iohzrd/datum_gateway) - C gateway fork on the `blake2b` branch that mines the BLAKE2b hardfork and nothing else, and enforces RDTS coinbase limits when the node reports `reduced_data`.
@@ -110,8 +110,8 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 
 ### Mining guides
 
-- [Miners and DATUM](https://bitcoin-blake2b.org/miners) - Why a Knots node plus DATUM Gateway is the mining setup, which hardware works (Antminer A3, Goldshell SC5 Pro and SC Lite and other Sia-style hashers), and the 800 kWU template limit.
-- [Solo mining on mainnet](https://bitcoin-blake2b.org/mining) - Knots 29.4.1 plus CONVOY DATUM Gateway walkthrough with a working config and the pitfalls of CONVOY's pooled defaults.
+- [Miners and DATUM](https://btc-blake2b.org/miners) - Why a Knots node plus DATUM Gateway is the mining setup, which hardware works (Antminer A3, Goldshell SC5 Pro and SC Lite and other Sia-style hashers), and the 800 kWU template limit.
+- [Solo mining on mainnet](https://btc-blake2b.org/mining) - Knots 29.4.1 plus CONVOY DATUM Gateway walkthrough with a working config and the pitfalls of CONVOY's pooled defaults.
 - [blake2bminer.com](https://blake2bminer.com/) - What it takes to mine the chain, with a running block log and a [blog](https://blog.blake2bminer.com/).
 - [Knots BLAKE2b and DATUM on Umbrel](https://regenerous.github.io/bitcoin-blake2b-datum-umbrel-guide/) - One-page guide to running Knots with BLAKE2b on Umbrel and connecting a miner through a local DATUM gateway. [Source](https://github.com/regenerous/bitcoin-blake2b-datum-umbrel-guide).
 
@@ -174,7 +174,7 @@ The two chains share history up to 961,631. A transaction signed the usual way i
 - [Knots PR #359](https://github.com/bitcoinknots/bitcoin/pull/359) - The hardfork pull request: header v2, BLAKE2b PoW, test vectors. [PR #385](https://github.com/bitcoinknots/bitcoin/pull/385) sets the mainnet and testnet4 parameters, [PR #358](https://github.com/bitcoinknots/bitcoin/pull/358) activates RDTS at the fork, [PR #357](https://github.com/bitcoinknots/bitcoin/pull/357) is the unified sighash.
 - [BIP-110: Reduced Data Temporary Softfork](https://bips.dev/110/) - The original RDTS proposal.
 - [BKIP-0001: The BLAKE2b hardfork](https://github.com/DarkWebDivingClub/bkips) - Written spec of the v2 header and unified sighash, checked against the PR test vectors. Draft, and it says so: where Knots and the document disagree, Knots is correct.
-- [bitcoin-blake2b.org](https://bitcoin-blake2b.org/) - Fork site, also served as btc-blake2b.org and reached via the bitcoinknots.org/learn/2026-blake2b link in the release notes. Pages for [getting started](https://bitcoin-blake2b.org/getting-started), [how it works](https://bitcoin-blake2b.org/how-it-works), [what you need to know](https://bitcoin-blake2b.org/you-need-to-know), [node operators](https://bitcoin-blake2b.org/nodes), [miners and DATUM](https://bitcoin-blake2b.org/miners), [solo mining](https://bitcoin-blake2b.org/mining), [developers](https://bitcoin-blake2b.org/developers) and [FAQ](https://bitcoin-blake2b.org/faq). Source at [innerhat-dev/bitcoin-blake2b.org](https://github.com/innerhat-dev/bitcoin-blake2b.org).
+- [btc-blake2b.org](https://btc-blake2b.org/) - Community site for the fork, also served as bitcoin-blake2b.org and reached via the bitcoinknots.org/learn/2026-blake2b link in the release notes. Pages for [getting started](https://btc-blake2b.org/getting-started), [how it works](https://btc-blake2b.org/how-it-works), [what you need to know](https://btc-blake2b.org/you-need-to-know), [node operators](https://btc-blake2b.org/nodes), [miners and DATUM](https://btc-blake2b.org/miners), [solo mining](https://btc-blake2b.org/mining), [developers](https://btc-blake2b.org/developers) and [FAQ](https://btc-blake2b.org/faq). Source at [innerhat-dev/bitcoin-blake2b.org](https://github.com/innerhat-dev/bitcoin-blake2b.org).
 - [bitcoinbip110.org](https://github.com/Bitcoin-BIP110/bitcoinbip110.github.io) - Technical reference and network observatory that keeps BIP 110, the enforcement branch, and the BLAKE2b chain terminologically distinct. Cites primary sources.
 - [The Bitcoin Manual: What is the BLAKE2b hard fork?](https://thebitcoinmanual.com/articles/blake2b-hard-fork/) - Plain-language explainer written 17 August 2026, before activation.
 
