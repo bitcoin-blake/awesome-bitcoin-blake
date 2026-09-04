@@ -127,7 +127,10 @@ Sia-family BLAKE2b ASICs can mine this chain. SHA256d hardware cannot. Solo mini
 
 The two chains share history up to 961,631. A transaction signed the usual way is valid on both chains and can be replayed. Signing with `SIGHASH_UNIFIED` makes it invalid on the SHA256d chain.
 
-- [bip110-splittor](https://github.com/Antisys/bip110-splittor) - Atomically exchange post-fork BLAKE2b-chain funds for SHA256d-chain funds, or vice versa.
+**The safe way to split coins** is what the Knots release notes describe: send your coins to yourself on the BLAKE2b chain using a wallet that signs with `SIGHASH_UNIFIED` (Knots wallet or the Sparrow BLAKE2b build), wait for confirmation, and only then spend on the other chain.
+
+**Be very wary of cross-chain swap tools.** Anything that takes your keys or funds to trade across the split with strangers deserves the same scrutiny as a new exchange. For example, the browser-based "bip110-splittor" HTLC swap DEX was written in a single day, has no reviewers, and was only tested on regtest against a pre-BLAKE2b Knots build. It is deliberately not listed here. Use unified-sighash self-sends instead.
+
 - [bip110-replay-checker](https://github.com/TIROBITCOIN/bip110-replay-checker) - Read-only web app: enter a SHA256d-chain txid and see whether it is observed in BLAKE2b-chain blocks or mempool. Not observed does not mean replay safe.
 - [Knots PR #357](https://github.com/bitcoinknots/bitcoin/pull/357) - Opt-in unified signature hash, the replay-protection rule shipped in 29.4.1.
 
