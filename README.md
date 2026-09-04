@@ -6,6 +6,8 @@ On 8 August 2026 Bitcoin Knots nodes enforcing BIP-110 (the Reduced Data Tempora
 
 Everything here is community maintained. **Verify releases and signatures yourself.** Listing is not an endorsement. Flags in *italics* mark experimental, testnet-only, closed-source or unmaintained entries.
 
+**There is nothing to claim.** Coins you held in self-custody before block 961,632 already exist on the BLAKE2b chain under your existing keys. Any site, message or tool that asks for a seed phrase or private key to "claim", "redeem" or "unlock" fork coins is a scam. See [Beware of BIP110/Blake BTC scams](https://thebitcoinmanual.com/articles/beware-of-bip110-blake-btc-scams/).
+
 ## Contents
 
 - [Chain parameters](#chain-parameters)
