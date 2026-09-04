@@ -111,6 +111,10 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 - [hashgg](https://github.com/paulscode/hashgg) - Expose a DATUM Gateway stratum port to the internet without port forwarding. The Companion variant pairs with the BLAKE2b gateway on StartOS.
 - [pickhash](https://github.com/paulscode/pickhash) - Rent BLAKE2b Siacoin hashrate from MiningRigRentals and point it at your own gateway. Spends money through your MiningRigRentals API key. *Pre-1.0, experimental.*
 
+### Hashrate rental
+
+- [MiningRigRentals BLAKE2b](https://www.miningrigrentals.com/rigs/blake2b) - Marketplace for renting Sia-family BLAKE2b rigs by the hour, priced per TH/s. Point a rental at your own DATUM Gateway's stratum port to mine the chain without owning hardware. *Commercial service, account and prepaid balance required.* The same market is what makes a low-hashrate chain cheap to attack, so treat rented hash as a test tool, not a security model.
+
 ### Mining guides
 
 - [Miners and DATUM](https://btc-blake2b.org/miners) - Why a Knots node plus DATUM Gateway is the mining setup, which hardware works (Antminer A3, Goldshell SC5 Pro and SC Lite and other Sia-style hashers), and the 800 kWU template limit.
