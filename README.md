@@ -58,6 +58,7 @@ Read from `src/kernel/chainparams.cpp`, `src/kernel/chainparamsbase.cpp` and `sr
 - [Bitcoin Knots wallet](https://github.com/bitcoinknots/bitcoin) - The node's own wallet. Supports `SIGHASH_UNIFIED` from the command line and GUI.
 - [blaketest](https://github.com/bitcoin-blake/blaketest) - Client-side taproot web wallet for the chain's testnet4, signing with the unified sighash. Keys stay in the browser, API base overridable to point at your own node. [Live](https://bitcoin-blake.github.io/blaketest/). *Testnet4 only.*
 - [pyblock-blake2b](https://github.com/AstrolexisAI/pyblock-blake2b) - Native Android self-custody wallet for the BLAKE2b chain, on-device keys via bdk-ffi, with an unlock step for replay-locked coins. *New, single vendor, unaudited.*
+- [Canary](https://github.com/privkeyio/canary) - Watch-only wallet monitor with transaction and balance notifications, patched to read the 164-byte header and its BLAKE2b block id. Needs a BLAKE2b-aware Electrum server. *Unaudited.*
 
 There is **no Electrum wallet fork** for this chain as of 4 September 2026. Electrum verifies 80-byte SHA256d headers itself, so it needs both a protocol extension and a BLAKE2b-aware client. None of the recent forks of spesmilo/electrum contain such work. Treat anything calling itself "Electrum for BLAKE2b" as unverified.
 
@@ -65,7 +66,7 @@ There is **no Electrum wallet fork** for this chain as of 4 September 2026. Elec
 
 - [electrs-pruned](https://github.com/paulscode/electrs-pruned) - electrs for a pruned node that follows the header-v2 chain and serves the extension the Sparrow BLAKE2b build uses. *Author reports the mainnet run unverified as of late August; testnet4 verified.*
 - [Shulcrum](https://github.com/Kilombino/Shulcrum) - Fulcrum fork that indexes and serves chains with 164-byte headers and BLAKE2b proof-of-work, via a `blockchain.pow_algorithms` protocol 1.7 extension. *Verified on testnet4 only per its docs; last push 24 August.*
-- [privkeyio/Fulcrum](https://github.com/privkeyio/Fulcrum) - Fulcrum 2.1.2 fork that parses the 164-byte v2 header and uses its BLAKE2b hash as the block id, keyed off the header's top version bit. Release `2.1.2-blake2b`. Needs an index rebuild. *Unaudited.*
+- [privkeyio/Fulcrum](https://github.com/privkeyio/Fulcrum) - Fulcrum 2.1.2 fork that parses the 164-byte v2 header and uses its BLAKE2b hash as the block id, keyed off the header's top version bit. Keeps upstream's on-disk format, so an index built by stock Fulcrum is opened and continued with no rebuild. Release `2.1.2-blake-3`. *Unaudited.*
 - [jasonsopko/electrs](https://github.com/jasonsopko/electrs) - romanz/electrs 0.10.10 plus 164-byte header v2 parsing, tag `v0.10.10-blake2b.1`. Needs Knots 29.4.1 or later. Ships a check script that verifies the 80 to 164 byte transition at 961,640.
 - [blake2b-light-clients](https://github.com/Kilombino/blake2b-light-clients) - Notes on what breaks in the Electrum protocol when headers stop being 80 bytes, and what it takes to fix.
 
@@ -132,7 +133,8 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 - [Maveth/datum-gateway-startos](https://github.com/Maveth/datum-gateway-startos) - Retropex packaging plus a multi-output coinbaser fix and mainnet coinbaser UI, sideload.
 - [electrs-pruned-startos](https://github.com/paulscode/electrs-pruned-startos) - Electrum server that indexes from a pruned node and follows the header-v2 chain.
 - [mempool-pruned-startos](https://github.com/paulscode/mempool-pruned-startos) - Mempool explorer for a pruned node, installs alongside official Mempool.
-- [privkeyio/fulcrum-startos](https://github.com/privkeyio/fulcrum-startos) - The Fulcrum BLAKE2b fork packaged as a StartOS flavour. Rebuilds the index for 164-byte header records.
+- [privkeyio/fulcrum-startos](https://github.com/privkeyio/fulcrum-startos) - The Fulcrum BLAKE2b fork packaged as a flavour of the StartOS `fulcrum` package, so it replaces the marketplace build in place and keeps its index. Universal package, x86_64 and aarch64.
+- [privkeyio/canary-startos](https://github.com/privkeyio/canary-startos) - Canary packaged as a StartOS flavour. Switches in place with no resync and depends on the BLAKE2b Fulcrum flavour.
 
 Not yet on the chain: Start9's official Knots package and paulscode's knots-rdts and knots-prerdts packages ship Knots 29.4 without BLAKE2b and stall at block 961,639. Start9's registry has de-listed its Knots branch, so BLAKE2b Knots on StartOS is sideload only.
 
@@ -161,10 +163,13 @@ All from the privkey.io team behind Shrike. Each signs inputs that declare hash 
 - [paulscode/drongo](https://github.com/paulscode/drongo) - Sparrow's Java Bitcoin library, patched to read variable-length headers and to produce and verify the unified sighash.
 - [privkeyio/drongo](https://github.com/privkeyio/drongo) - drongo with v2 header parsing, BLAKE2b proof-of-work verification and the unified sighash. The library under Shrike.
 - [privkeyio/embit](https://github.com/privkeyio/embit) - embit with `sighash_unified()` on transactions and streaming PSBT views, plus hash-type negotiation in signing. Used by the SeedSigner build.
+- [privkeyio/rust-bitcoin](https://github.com/privkeyio/rust-bitcoin) - rust-bitcoin with the 164-byte header and its BLAKE2b block id, keyed off the header's top version bit. Branch `0.32.xx` is what bdk and electrum-client pin; `master` carries the 0.33 line.
+- [privkeyio/rust-electrum-client](https://github.com/privkeyio/rust-electrum-client) - electrum-client that splits a batch of concatenated headers by parsed length rather than a fixed 80-byte stride, so a mixed-width `blockchain.block.headers` response reads correctly.
 
 ## Lightning
 
 - [dln-node-knots](https://github.com/DarkWebDivingClub/dln-node-knots) - ldk-node Lightning node for the BLAKE2b chain, built on header-aware `rust-bitcoin-knots` and `rust-lightning-knots` crates behind a `blake2b` feature. *Regtest and end-to-end tests only so far.*
+- [privkeyio/lightning](https://github.com/privkeyio/lightning/tree/v26.06.7-blake2b) - Core Lightning that parses the 164-byte v2 header and computes the block id with BLAKE2b, so block ids keep matching the backend across the activation height. Without it lightningd cannot parse the activation block at all.
 
 ## Cross-chain and replay
 
