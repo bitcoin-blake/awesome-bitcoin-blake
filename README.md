@@ -66,7 +66,7 @@ There is **no Electrum wallet fork** for this chain as of 4 September 2026. Elec
 
 - [electrs-pruned](https://github.com/paulscode/electrs-pruned) - electrs for a pruned node that follows the header-v2 chain and serves the extension the Sparrow BLAKE2b build uses. *Author reports the mainnet run unverified as of late August; testnet4 verified.*
 - [Shulcrum](https://github.com/Kilombino/Shulcrum) - Fulcrum fork that indexes and serves chains with 164-byte headers and BLAKE2b proof-of-work, via a `blockchain.pow_algorithms` protocol 1.7 extension. *Verified on testnet4 only per its docs; last push 24 August.*
-- [privkeyio/Fulcrum](https://github.com/privkeyio/Fulcrum) - Fulcrum 2.1.2 fork that parses the 164-byte v2 header and uses its BLAKE2b hash as the block id, keyed off the header's top version bit. Release `2.1.2-blake2b`. Needs an index rebuild. *Unaudited.*
+- [privkeyio/Fulcrum](https://github.com/privkeyio/Fulcrum) - Fulcrum 2.1.2 fork that parses the 164-byte v2 header and uses its BLAKE2b hash as the block id, keyed off the header's top version bit. Keeps upstream's on-disk format, so an index built by stock Fulcrum is opened and continued with no rebuild. Release `2.1.2-blake-3`. *Unaudited.*
 - [jasonsopko/electrs](https://github.com/jasonsopko/electrs) - romanz/electrs 0.10.10 plus 164-byte header v2 parsing, tag `v0.10.10-blake2b.1`. Needs Knots 29.4.1 or later. Ships a check script that verifies the 80 to 164 byte transition at 961,640.
 - [blake2b-light-clients](https://github.com/Kilombino/blake2b-light-clients) - Notes on what breaks in the Electrum protocol when headers stop being 80 bytes, and what it takes to fix.
 
@@ -133,7 +133,7 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 - [Maveth/datum-gateway-startos](https://github.com/Maveth/datum-gateway-startos) - Retropex packaging plus a multi-output coinbaser fix and mainnet coinbaser UI, sideload.
 - [electrs-pruned-startos](https://github.com/paulscode/electrs-pruned-startos) - Electrum server that indexes from a pruned node and follows the header-v2 chain.
 - [mempool-pruned-startos](https://github.com/paulscode/mempool-pruned-startos) - Mempool explorer for a pruned node, installs alongside official Mempool.
-- [privkeyio/fulcrum-startos](https://github.com/privkeyio/fulcrum-startos) - The Fulcrum BLAKE2b fork packaged as a StartOS flavour. Rebuilds the index for 164-byte header records.
+- [privkeyio/fulcrum-startos](https://github.com/privkeyio/fulcrum-startos) - The Fulcrum BLAKE2b fork packaged as a flavour of the StartOS `fulcrum` package, so it replaces the marketplace build in place and keeps its index. Universal package, x86_64 and aarch64.
 - [privkeyio/canary-startos](https://github.com/privkeyio/canary-startos) - Canary packaged as a StartOS flavour. Switches in place with no resync and depends on the BLAKE2b Fulcrum flavour.
 
 Not yet on the chain: Start9's official Knots package and paulscode's knots-rdts and knots-prerdts packages ship Knots 29.4 without BLAKE2b and stall at block 961,639. Start9's registry has de-listed its Knots branch, so BLAKE2b Knots on StartOS is sideload only.
