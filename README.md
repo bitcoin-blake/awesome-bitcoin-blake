@@ -71,7 +71,7 @@ There is **no Electrum wallet fork** for this chain as of 4 September 2026. Elec
 
 ## Explorers
 
-- [mempool.guide](https://mempool.guide/) - Mempool explorer on the BLAKE2b chain with a full Esplora API, including 164-byte headers via `/api/block/<hash>/header`.
+- [mempool.guide](https://mempool.guide/) - Mempool explorer on the BLAKE2b chain with a full Esplora API, including 164-byte headers via `/api/block/<hash>/header`. Also serves the chain's [testnet4](https://mempool.guide/testnet4) since 4 September 2026.
 - [mempool.kilombino.com](https://mempool.kilombino.com/) - Self-hosted mempool instance following the BLAKE2b chain, with daily pool tagging of BLAKE2b miners.
 - [mempool.maveth.ca](https://mempool.maveth.ca/) - Self-hosted mempool instance following the BLAKE2b chain.
 - [Retropex/mempool](https://github.com/Retropex/mempool) - The mempool.guide codebase: BLAKE2b header support and `SIGHASH_UNIFIED` display since 30 August. Self-hostable.
