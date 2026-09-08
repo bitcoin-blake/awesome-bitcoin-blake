@@ -21,6 +21,7 @@ Everything here is community maintained. **Verify releases and signatures yourse
 - [Libraries](#libraries)
 - [Lightning](#lightning)
 - [Cross-chain and replay](#cross-chain-and-replay)
+- [Exchanges](#exchanges)
 - [Specs and documentation](#specs-and-documentation)
 - [Community and news](#community-and-news)
 - [Contributing](#contributing)
@@ -175,6 +176,14 @@ The two chains share history up to 961,631. A transaction signed the usual way i
 **Be very wary of cross-chain swap tools.** Anything that takes your keys or funds to trade across the split with strangers deserves the same scrutiny as a new exchange. For example, bip110-splittor (single-author Taproot HTLC swaps over a Nostr orderbook) and shaswap (HTLC swaps through a coordinator) both exist, have no external review and no track record on mainnet, and are deliberately not listed. Use unified-sighash self-sends instead.
 
 - [bip110-replay-checker](https://github.com/TIROBITCOIN/bip110-replay-checker) - Read-only web app: enter a SHA256d-chain txid and see whether it is observed in BLAKE2b-chain blocks or mempool. Not observed does not mean replay safe. *Unmaintained since 24 August, default explorer backend is dead, Korean-only README.*
+
+## Exchanges
+
+Listed because people ask, not as a recommendation. These are small custodial venues, so the usual rules apply twice over: keep only what you are trading there, and verify the deposit address on the exchange's own explorer before sending. The coin has no agreed ticker; venues use **XBT** or **BTCB2**, and XBT was an ordinary bitcoin ticker for years, so read the market's name, not just the symbol. A deposit signed the legacy way is a replayable transaction on both chains; split your coins with a unified-sighash self-send before trading. *All closed source and custodial.*
+
+- [NonKYC](https://nonkyc.io/market/BTCB2_USDT) - BTCB2/USDT. The exchange's own asset record names it "XBT (BTCB2 / Blake2b fork)".
+- [NeoxEX](https://neoxa.exchange/trade/BTCB2_USDC) - XBT/USDC spot market, URL uses BTCB2.
+- [SafeTrade](https://safetrade.com/exchange/XBT-USDT?type=basic) - XBT/USDT. Listed alongside a separate BTC market, so check you are on XBT.
 
 ## Specs and documentation
 
