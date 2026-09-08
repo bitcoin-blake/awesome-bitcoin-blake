@@ -89,12 +89,16 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 
 ### Pools
 
-- [AlphaPool BLAKE2b](https://knots.alphapool.tech/) - Live pool on the BLAKE2b chain with public stats. PPLNS, 2.5% fee, balances held until maturity. *Closed-source pool software.*
+Spread your hashrate. In early September 2026 one pool held over a third of the network and asked its own miners to leave, then capped itself at 30%. A chain this small is only as safe as its least concentrated hash. Every pool below pays from the coinbase; prefer the ones that let you run your own DATUM Gateway and choose your own transactions.
+
+- [Lazarus Pool](https://pool.awokenlazarus.xyz/) - TIDES pool paid in the coinbase. 0.5% if you run your own DATUM Gateway and pick the transactions, 1% on the public stratum with the pool's templates. Same payout window either way.
+- [RATUM Prime](https://pool.iohzrd.tech/) - Non-custodial DATUM pool by the author of [ratum](https://github.com/iohzrd/ratum), the Rust DATUM reimplementation. Operator fee at most 1%, paid from the coinbase. *New.*
+- [RIPTIDE (tides-pool)](https://tides.maveth.ca/) - DATUM Prime plus TIDES payouts. 0% coinbaser fee via your own gateway, a variable work fee, currently 1%, on the pool's stratum, half of which is paid back to live miners. Source at [Maveth/tides-pool](https://github.com/Maveth/tides-pool). *Experimental.*
+- [CONVOY](https://convoy.xyz/) - Luke Dashjr's DATUM pool, founded 29 August 2026 after he left OCEAN. 1% fee, 2% when you fail over to their node. Its [gateway](https://github.com/CONVOYMining/datum_gateway) ships with the pool as default; solo miners must clear `pool_host` and set `pooled_mining_only` to false.
 - [Xor Pool](https://xorpool.com/) - Non-custodial pool where each block's coinbase pays the rig that found it. 1.5% fee, `stratum.xorpool.com:23334`. Gateway source at [xorpool/datum-gateway](https://github.com/xorpool/datum-gateway).
-- [CONVOY](https://github.com/CONVOYMining) - Luke Dashjr's mining venture, founded 29 August 2026 after he left OCEAN. Its gateway defaults to the beta pool `datum-beta1.mine.convoy.xyz` with pooled mining on. No fee or payout terms published yet and convoy.xyz is a placeholder. Solo miners must clear `pool_host` and set `pooled_mining_only` to false.
-- [RIPTIDE (tides-pool)](https://github.com/Maveth/tides-pool) - DATUM Prime plus TIDES payout pool server. Runs a mainnet BLAKE2b instance at [tides.maveth.ca](https://tides.maveth.ca/) and a testnet4 lab. *Experimental.*
 - [gridpool-blake2b](https://github.com/gridlabs-science/gridpool-blake2b) - Decentralised reward-sharing protocol for sovereign miners without a custodial pool wallet, with a policy-bound DATUM template scheduler. StartOS and Umbrel packages in the same account. *Experimental, packages pin a release-candidate node.*
 - [c2pool](https://github.com/frstrtr/c2pool) - P2Pool rebirth in C++ with a BIP-110 lane, BLAKE2b sharechain and share explorer. Live sharechain at [bip110.voidbind.com](https://bip110.voidbind.com/), 0.1% author donation. *Experimental.*
+- [AlphaPool BLAKE2b](https://knots.alphapool.tech/) - The largest pool by hashrate, PPLNS, 2.5% fee, balances held until maturity. Enforces a 30% network-hashrate connection cap and asks miners to point elsewhere. *Closed-source pool software.*
 
 ### Gateways and miner software
 
