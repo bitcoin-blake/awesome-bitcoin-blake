@@ -84,6 +84,7 @@ There is **no Electrum wallet fork** for this chain as of 4 September 2026. Elec
 - [paulscode/mempool-bip110](https://github.com/paulscode/mempool-bip110) - Mempool v3.2.1 fork that visualises BIP-110 signalling and rule violations. Last updated 8 August 2026, before the BLAKE2b change. StartOS and Umbrel packaging in the same account.
 - [Maveth/mempool-blake](https://github.com/Maveth/mempool-blake) - Thin deploy recipe for stock mempool on Knots BLAKE2b with the 800 kWU limit.
 - [blakerunner (forever21.lol)](https://github.com/satoshipuzzles/blakerunner) - Synthwave block explorer plus Nostr lounge. Explorer data is proxied from mempool.guide. *Holds a Nostr key in the browser that doubles as a Bitcoin key and signs on-chain spends without `SIGHASH_UNIFIED`. Do not fund it.*
+- [blockvase.com](https://blockvase.com/) - Live block viewer on the BLAKE2b chain, fed by Blockvase Knots nodes. Recent blocks, mempool, fees, and search by transaction id or block height.
 
 ## Mining
 
@@ -102,6 +103,7 @@ Spread your hashrate. In early September 2026 one pool held over a third of the 
 - [gridpool-blake2b](https://github.com/gridlabs-science/gridpool-blake2b) - Decentralised reward-sharing protocol for sovereign miners without a custodial pool wallet, with a policy-bound DATUM template scheduler. StartOS and Umbrel packages in the same account. *Experimental, packages pin a release-candidate node.*
 - [c2pool](https://github.com/frstrtr/c2pool) - P2Pool rebirth in C++ with a BIP-110 lane, BLAKE2b sharechain and share explorer. Live sharechain at [bip110.voidbind.com](https://bip110.voidbind.com/), 0.1% author donation. *Experimental.*
 - [AlphaPool BLAKE2b](https://knots.alphapool.tech/) - The largest pool by hashrate, PPLNS, 2.5% fee, balances held until maturity. Enforces a 30% network-hashrate connection cap and asks miners to point elsewhere. *Closed-source pool software.*
+- [Blockvase Pool](https://blockvase.com/#pool) - Non-custodial DATUM pool paid from the coinbase, with a public stratum and a rolling work window of 8x nethash. DATUM fee stays at 0% until the first pool block, then 0.21%; public stratum is 2.3%. Caps public hashrate. Source at [Blockvase/c_datum_prime](https://github.com/Blockvase/c_datum_prime).
 
 ### Gateways and miner software
 
@@ -118,6 +120,7 @@ Spread your hashrate. In early September 2026 one pool held over a third of the 
 - [goldshell-config](https://github.com/Maveth/goldshell-config) - Control-plane notes for Goldshell BLAKE2b ASICs (SC Lite, HS Box): fans, temperature, auth, ports.
 - [hashgg](https://github.com/paulscode/hashgg) - Expose a DATUM Gateway stratum port to the internet without port forwarding. The Companion variant pairs with the BLAKE2b gateway on StartOS.
 - [pickhash](https://github.com/paulscode/pickhash) - Rent BLAKE2b Siacoin hashrate from MiningRigRentals and point it at your own gateway. Spends money through your MiningRigRentals API key. *Pre-1.0, experimental.*
+- [c_datum_prime](https://github.com/Blockvase/c_datum_prime) - C port of RATUM Prime. DATUM pool server only: not a miner gateway and not a public Stratum server. AGPL-3.0 or later.
 
 ### Hashrate rental
 
