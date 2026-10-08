@@ -87,6 +87,7 @@ There is **no Electrum wallet fork** for this chain as of 4 September 2026. Elec
 - [Maveth/mempool-blake](https://github.com/Maveth/mempool-blake) - Thin deploy recipe for stock mempool on Knots BLAKE2b with the 800 kWU limit.
 - [blakerunner (forever21.lol)](https://github.com/satoshipuzzles/blakerunner) - Synthwave block explorer plus Nostr lounge. Explorer data is proxied from mempool.guide. *Holds a Nostr key in the browser that doubles as a Bitcoin key and signs on-chain spends without `SIGHASH_UNIFIED`. Do not fund it.*
 - [blockvase.com](https://blockvase.com/) - Live block viewer on the BLAKE2b chain, fed by Blockvase Knots nodes. Recent blocks, mempool, fees, and search by transaction id or block height.
+- [2rdzy/btc-rpc-explorer](https://github.com/2rdzy/btc-rpc-explorer) - Self-hosted explorer fork of BTC RPC Explorer for the BLAKE2b chain, for your own Knots node. Address history is optional via Electrum servers such as Fulcrum. TypeScript, Docker image, MIT. Release v4.0.0.
 
 ## Mining
 
