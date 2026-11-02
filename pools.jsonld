@@ -1,0 +1,516 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/pools.jsonld",
+  "name": "Bitcoin BLAKE2b mining pools",
+  "description": "The Pools section of Awesome Bitcoin BLAKE. Fees and endpoints change; check each pool's own site before connecting.",
+  "isPartOf": {
+    "@type": "WebPage",
+    "name": "Awesome Bitcoin BLAKE",
+    "url": "https://github.com/bitcoin-blake/awesome-bitcoin-blake"
+  },
+  "dateModified": "2026-11-02",
+  "numberOfItems": 15,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "Lazarus Pool",
+        "url": "https://pool.lazarus-xbt.xyz/",
+        "description": "TIDES pool paid in the coinbase, own DATUM Gateway or public stratum.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "TIDES"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "datum.lazarus-xbt.xyz:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "RATUM Prime",
+        "url": "https://pool.iohzrd.tech/",
+        "description": "Non-custodial DATUM pool by the author of ratum, the Rust DATUM reimplementation.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "at most 1%"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/iohzrd/ratum"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "new"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "Tyger Pool",
+        "url": "https://tygerpool.com/",
+        "description": "DATUM-only pool paid to your address from the coinbase, with an Umbrel store.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0% launch fee, 30 days' notice before it changes"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "new; pool server source not published"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "name": "RIPTIDE (tides-pool)",
+        "url": "https://riptide.maveth.ca/",
+        "description": "DATUM Prime plus TIDES payouts; 0% via your own gateway, variable work fee on the pool's stratum.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "TIDES"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "riptide.maveth.ca:29120"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0% own gateway; 1% on the pool's stratum, half paid back to live miners"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/Maveth/tides-pool"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "experimental"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Service",
+        "name": "CONVOY",
+        "url": "https://convoy.xyz/",
+        "description": "Luke Dashjr's DATUM pool, founded 29 August 2026.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "datum-beta1.mine.convoy.xyz:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "1%, 2% when failing over to the pool's node"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/CONVOYMining/datum_gateway"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Service",
+        "name": "Xor Pool",
+        "url": "https://xorpool.com/",
+        "description": "Non-custodial pool where each block's coinbase pays the rig that found it.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "finder takes the block"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "stratumEndpoint",
+            "value": "stratum.xorpool.com:23334"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "1.5%"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/xorpool/datum-gateway"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Service",
+        "name": "gridpool-blake2b",
+        "url": "https://github.com/gridlabs-science/gridpool-blake2b",
+        "description": "Decentralised reward-sharing protocol for sovereign miners with a policy-bound DATUM template scheduler.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/gridlabs-science/gridpool-blake2b"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "experimental"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Service",
+        "name": "c2pool",
+        "url": "https://github.com/frstrtr/c2pool",
+        "description": "P2Pool rebirth in C++ with a BIP-110 lane and a BLAKE2b sharechain.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "sharechain"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0.1% author donation"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/frstrtr/c2pool"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "experimental"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Service",
+        "name": "AlphaPool BLAKE2b",
+        "url": "https://knots.alphapool.tech/",
+        "description": "PPLNS pool with a 30% network-hashrate connection cap.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "PPLNS"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "2.5%"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "closed-source pool software"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Service",
+        "name": "Blockvase Pool",
+        "url": "https://blockvase.com/#pool",
+        "description": "Non-custodial DATUM pool paid from the coinbase, rolling work window of 8x nethash.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "pool.blockvase.com:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0.21% DATUM, 2.3% public stratum"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "sourceCode",
+            "value": "https://github.com/Blockvase/c_datum_prime"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Service",
+        "name": "Terminus Pool",
+        "url": "https://terminuspool.xyz/",
+        "description": "DATUM-only RATUM Prime pool paid directly from the coinbase, with public telemetry.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "datum.terminuspool.xyz:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0% through 5 November 2026, then 1%"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Service",
+        "name": "Sentinel BTCB2 Pool",
+        "url": "https://pool.sentineldefensetechnologies.co.za/",
+        "description": "Work-weighted PPLNS-8D pool with an adaptive anti-concentration fee, Stratum V1 and DATUM.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "PPLNS-8D"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "adaptive, 0% baseline"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Service",
+        "name": "B2Pool",
+        "url": "https://b2pool.io/",
+        "description": "TIDES pool with Stratum V1, Stratum V2, DATUM and DATUM Prime on six regional hosts.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "TIDES"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "de.b2pool.io:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "1% from the subsidy; transaction fees kept by the pool"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "custodial"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Service",
+        "name": "Omega Pool",
+        "url": "https://omegapool.tech/",
+        "description": "RATUM Prime DATUM pool paid from the coinbase over an 8x window.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "omegapool.tech:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0.5%"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "new"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Service",
+        "name": "Paperclip Pool",
+        "url": "https://pool.paperclippool.xyz/",
+        "description": "DATUM plus TIDES pool paid from the coinbase.",
+        "serviceType": "Mining pool",
+        "areaServed": "Bitcoin BLAKE2b chain",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "payoutScheme",
+            "value": "TIDES"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "datumEndpoint",
+            "value": "pool.paperclippool.xyz:28915"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "fee",
+            "value": "0% own DATUM Gateway, 3% public stratum"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "custody",
+            "value": "non-custodial"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "status",
+            "value": "test"
+          }
+        ]
+      }
+    }
+  ]
+}
