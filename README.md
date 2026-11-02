@@ -99,10 +99,12 @@ Sia-family BLAKE2b ASICs mine this chain, or a CPU or GPU at trivial hashrate. S
 
 Spread your hashrate. In early September 2026 one pool held over a third of the network and asked its own miners to leave, then capped itself at 30%. A chain this small is only as safe as its least concentrated hash. Every pool below pays from the coinbase; prefer the ones that let you run your own DATUM Gateway and choose your own transactions.
 
-- [Lazarus Pool](https://pool.awokenlazarus.xyz/) - TIDES pool paid in the coinbase. 0.5% if you run your own DATUM Gateway and pick the transactions, 1% on the public stratum with the pool's templates. Same payout window either way.
+[DATUM Pools](https://xbt-pools.vercel.app/) ([source](https://github.com/Gaming32/xbt-pools)) compares estimated revenue across eight of the DATUM pools below for a given hashrate, from each pool's live API. Every pool here is also in [pools.jsonld](pools.jsonld), a machine-readable schema.org list with DATUM endpoints and payout schemes.
+
+- [Lazarus Pool](https://pool.lazarus-xbt.xyz/) - TIDES pool paid in the coinbase. 0.5% if you run your own DATUM Gateway and pick the transactions, 1% on the public stratum with the pool's templates. Same payout window either way.
 - [RATUM Prime](https://pool.iohzrd.tech/) - Non-custodial DATUM pool by the author of [ratum](https://github.com/iohzrd/ratum), the Rust DATUM reimplementation. Operator fee at most 1%, paid from the coinbase. *New.*
 - [Tyger Pool](https://tygerpool.com/) - DATUM-only, non-custodial, paid to your address from the coinbase. 0% launch fee with a promise of 30 days' notice before it changes. One-click setup via its [Umbrel store](https://github.com/tygerpool/umbrel-store); stratum is paused. *New, site still being reworked, pool server source not published.*
-- [RIPTIDE (tides-pool)](https://tides.maveth.ca/) - DATUM Prime plus TIDES payouts. 0% coinbaser fee via your own gateway, a variable work fee, currently 1%, on the pool's stratum, half of which is paid back to live miners. Source at [Maveth/tides-pool](https://github.com/Maveth/tides-pool). *Experimental.*
+- [RIPTIDE (tides-pool)](https://riptide.maveth.ca/) - DATUM Prime plus TIDES payouts. 0% coinbaser fee via your own gateway, a variable work fee, currently 1%, on the pool's stratum, half of which is paid back to live miners. Source at [Maveth/tides-pool](https://github.com/Maveth/tides-pool). *Experimental.*
 - [CONVOY](https://convoy.xyz/) - Luke Dashjr's DATUM pool, founded 29 August 2026 after he left OCEAN. 1% fee, 2% when you fail over to their node. Its [gateway](https://github.com/CONVOYMining/datum_gateway) ships with the pool as default; solo miners must clear `pool_host` and set `pooled_mining_only` to false.
 - [Xor Pool](https://xorpool.com/) - Non-custodial pool where each block's coinbase pays the rig that found it. 1.5% fee, `stratum.xorpool.com:23334`. Gateway source at [xorpool/datum-gateway](https://github.com/xorpool/datum-gateway).
 - [gridpool-blake2b](https://github.com/gridlabs-science/gridpool-blake2b) - Decentralised reward-sharing protocol for sovereign miners without a custodial pool wallet, with a policy-bound DATUM template scheduler. StartOS and Umbrel packages in the same account. *Experimental, packages pin a release-candidate node.*
@@ -111,6 +113,9 @@ Spread your hashrate. In early September 2026 one pool held over a third of the 
 - [Blockvase Pool](https://blockvase.com/#pool) - Non-custodial DATUM pool paid from the coinbase, with a public stratum and a rolling work window of 8x nethash. DATUM fee stays at 0% until the first pool block, then 0.21%; public stratum is 2.3%. Caps public hashrate. Source at [Blockvase/c_datum_prime](https://github.com/Blockvase/c_datum_prime).
 - [Terminus Pool](https://terminuspool.xyz/) - DATUM-only, non-custodial RATUM Prime pool paid directly from the coinbase, with public telemetry and an Umbrel package. 0% DATUM operational fee through November 5, 2026, then 1%.
 - [Sentinel BTCB2 Pool](https://pool.sentineldefensetechnologies.co.za/) - Work-weighted PPLNS-8D pool paid from the coinbase upon maturity, featuring an adaptive anti-concentration dynamic fee (0% baseline) with dual Stratum V1 and sovereign DATUM V3 template ingress.
+- [B2Pool](https://b2pool.io/) - TIDES over a window of 8x network difficulty, about 11% of network hashrate on 2 November 2026. Stratum V1, Stratum V2 with job declaration, DATUM and DATUM Prime, on six regional hosts. 1% fee from the subsidy; only the subsidy is shared, transaction fees stay with the pool. *Custodial: pays from the pool wallet after block maturity, minimum 10,000 sats.*
+- [Omega Pool](https://omegapool.tech/) - RATUM Prime DATUM pool paid from the coinbase over an 8x window. 0.5% fee. DATUM at `omegapool.tech:28915`. *New.*
+- [Paperclip Pool](https://pool.paperclippool.xyz/) - DATUM plus TIDES, paid from the coinbase. 0% with your own DATUM Gateway; the public stratum costs 3%, of which 2% is paid as a bonus to DATUM miners and 1% to the operator. DATUM at `pool.paperclippool.xyz:28915`. *Calls itself a test.*
 
 ### Gateways and miner software
 
@@ -228,7 +233,7 @@ Listed because people ask, not as a recommendation. These are small custodial ve
 
 ## Contributing
 
-Pull requests welcome. Keep it to one line per entry: `[Name](url) - What it does.` Add new entries to the end of the relevant section.
+Pull requests welcome. Keep it to one line per entry: `[Name](url) - What it does.` Add new entries to the end of the relevant section. A new pool also goes in [pools.jsonld](pools.jsonld), with what it publishes about payouts, fees and its DATUM endpoint.
 
 Please include projects that:
 
