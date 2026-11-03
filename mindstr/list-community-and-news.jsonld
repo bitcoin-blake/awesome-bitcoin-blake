@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Community and news",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#community-and-news",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#r76gtv",
+      "name": "Bitcoin Knots Discord",
+      "x": 207,
+      "y": -120,
+      "link": "https://discord.gg/3Ccegp9YrU",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qmk4u7",
+      "name": "Bitcoin Knots Telegram",
+      "x": 239,
+      "y": 63,
+      "link": "https://t.me/Bitcoin_Knots",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ysvez3",
+      "name": "Bitcoin Knots on X",
+      "x": 123,
+      "y": 198,
+      "link": "https://x.com/BitcoinKnots",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#83zuf9",
+      "name": "PaulsCode forum: Knots 29.4 BIP-110 blocks",
+      "x": -142,
+      "y": 184,
+      "link": "https://paulscode.com/t/knots-29-4-8-05-2026-bip-110-blocks/1240",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vrzefk",
+      "name": "Bitcoin BLAKE2b hard fork explained",
+      "x": -283,
+      "y": 32,
+      "link": "https://www.youtube.com/watch?v=_dZQ-I2OEo4",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#hvyxxr",
+      "name": "Joint statement of OCEAN and Luke Dashjr",
+      "x": -183,
+      "y": -145,
+      "link": "https://www.prnewswire.com/news-releases/joint-statement-of-ocean-and-luke-dashjr-302864347.html",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qahfae",
+      "name": "← awesome-bitcoin-blake",
+      "x": 19,
+      "y": -212,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    }
+  ],
+  "selectedNode": 0
+}

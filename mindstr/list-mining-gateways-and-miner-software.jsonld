@@ -1,0 +1,268 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Gateways and miner software",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#gateways-and-miner-software",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#mrv4db",
+      "name": "Unflagged · 11",
+      "x": 113,
+      "y": 189,
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#i6483q",
+      "name": "CONVOY DATUM Gateway → paulscode/datumg…",
+      "x": 469,
+      "y": 148,
+      "bgColor": "#daeeff",
+      "parent": "#mrv4db"
+    },
+    {
+      "@id": "#kmcrgd",
+      "name": "CONVOY DATUM Gateway",
+      "x": 694,
+      "y": -241,
+      "link": "https://github.com/CONVOYMining/datum_gateway",
+      "bgColor": "#daeeff",
+      "parent": "#i6483q"
+    },
+    {
+      "@id": "#ktiw89",
+      "name": "luke-jr/datumgateway",
+      "x": 836,
+      "y": -67,
+      "link": "https://github.com/luke-jr/datum_gateway",
+      "bgColor": "#daeeff",
+      "parent": "#i6483q"
+    },
+    {
+      "@id": "#c74y5q",
+      "name": "iohzrd/datumgateway",
+      "x": 736,
+      "y": 122,
+      "link": "https://github.com/iohzrd/datum_gateway",
+      "bgColor": "#daeeff",
+      "parent": "#i6483q"
+    },
+    {
+      "@id": "#374kep",
+      "name": "Maveth/datumgateway",
+      "x": 747,
+      "y": 326,
+      "link": "https://github.com/Maveth/datum_gateway/tree/bip110-pow-v2",
+      "bgColor": "#daeeff",
+      "parent": "#i6483q"
+    },
+    {
+      "@id": "#ba2cgp",
+      "name": "innerhat DATUM Gateway",
+      "x": 537,
+      "y": 445,
+      "link": "https://github.com/innerhat-dev/datum_gateway",
+      "bgColor": "#daeeff",
+      "parent": "#i6483q"
+    },
+    {
+      "@id": "#h7ym9k",
+      "name": "paulscode/datumgateway",
+      "x": 389,
+      "y": 633,
+      "link": "https://github.com/paulscode/datum_gateway",
+      "bgColor": "#daeeff",
+      "parent": "#i6483q"
+    },
+    {
+      "@id": "#ius84b",
+      "name": "cpuminer-bip110 → cdatumprime",
+      "x": -328,
+      "y": 417,
+      "bgColor": "#daeeff",
+      "parent": "#mrv4db"
+    },
+    {
+      "@id": "#583aqh",
+      "name": "cpuminer-bip110",
+      "x": -65,
+      "y": 635,
+      "link": "https://github.com/Antisys/cpuminer-bip110",
+      "bgColor": "#daeeff",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#sbf4ee",
+      "name": "blake2b-gpu-datum-lab",
+      "x": -284,
+      "y": 672,
+      "link": "https://github.com/Maveth/blake2b-gpu-datum-lab",
+      "bgColor": "#daeeff",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#t6q67m",
+      "name": "goldshell-config",
+      "x": -424,
+      "y": 526,
+      "link": "https://github.com/Maveth/goldshell-config",
+      "bgColor": "#daeeff",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#abq85r",
+      "name": "hashgg",
+      "x": -629,
+      "y": 473,
+      "link": "https://github.com/paulscode/hashgg",
+      "bgColor": "#daeeff",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#sy2ncx",
+      "name": "cdatumprime",
+      "x": -665,
+      "y": 294,
+      "link": "https://github.com/Blockvase/c_datum_prime",
+      "bgColor": "#daeeff",
+      "parent": "#ius84b"
+    },
+    {
+      "@id": "#fertai",
+      "name": "Flagged: experimental, testnet… · 3",
+      "x": -205,
+      "y": -121,
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9u36xp",
+      "name": "ratum",
+      "x": -474,
+      "y": -136,
+      "link": "https://github.com/iohzrd/ratum",
+      "bgColor": "#ffe2e6",
+      "parent": "#fertai"
+    },
+    {
+      "@id": "#5q2nc4",
+      "name": "Blake2bCudaMiner",
+      "x": -484,
+      "y": -287,
+      "link": "https://github.com/tomek2150/Blake2bCudaMiner",
+      "bgColor": "#ffe2e6",
+      "parent": "#fertai"
+    },
+    {
+      "@id": "#eegh3a",
+      "name": "pickhash",
+      "x": -315,
+      "y": -330,
+      "link": "https://github.com/paulscode/pickhash",
+      "bgColor": "#ffe2e6",
+      "parent": "#fertai"
+    },
+    {
+      "@id": "#tmtdcb",
+      "name": "← Mining",
+      "x": 8,
+      "y": -212,
+      "link": "./list-mining.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 2,
+      "end": 6
+    },
+    {
+      "start": 2,
+      "end": 7
+    },
+    {
+      "start": 2,
+      "end": 8
+    },
+    {
+      "start": 1,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 9,
+      "end": 13
+    },
+    {
+      "start": 9,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "selectedNode": 0
+}

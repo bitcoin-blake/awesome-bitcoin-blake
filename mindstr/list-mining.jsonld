@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Mining",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#mining",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ziixui",
+      "name": "Pools · 15 ›",
+      "x": 219,
+      "y": -103,
+      "link": "./list-mining-pools.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qnf7j2",
+      "name": "Gateways and miner software · 14 ›",
+      "x": 210,
+      "y": 116,
+      "link": "./list-mining-gateways-and-miner-software.jsonld",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rx55k2",
+      "name": "Hashrate rental",
+      "x": -22,
+      "y": 212,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#hashrate-rental",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ux93wm",
+      "name": "MiningRigRentals BLAKE2b",
+      "x": -44,
+      "y": 423,
+      "link": "https://www.miningrigrentals.com/rigs/blake2b",
+      "bgColor": "#ffe3dc",
+      "parent": "#rx55k2"
+    },
+    {
+      "@id": "#a464iu",
+      "name": "Mining guides",
+      "x": -250,
+      "y": -7,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#mining-guides",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#simp87",
+      "name": "Miners and DATUM",
+      "x": -409,
+      "y": 244,
+      "link": "https://btc-blake2b.org/miners",
+      "bgColor": "#eeedd3",
+      "parent": "#a464iu"
+    },
+    {
+      "@id": "#tzmucf",
+      "name": "Solo mining on mainnet",
+      "x": -573,
+      "y": 120,
+      "link": "https://btc-blake2b.org/mining",
+      "bgColor": "#eeedd3",
+      "parent": "#a464iu"
+    },
+    {
+      "@id": "#xmtzgz",
+      "name": "blake2bminer.com",
+      "x": -496,
+      "y": -55,
+      "link": "https://blake2bminer.com/",
+      "bgColor": "#eeedd3",
+      "parent": "#a464iu"
+    },
+    {
+      "@id": "#b9snuz",
+      "name": "Knots BLAKE2b and DATUM on Umbrel",
+      "x": -494,
+      "y": -274,
+      "link": "https://regenerous.github.io/bitcoin-blake2b-datum-umbrel-guide/",
+      "bgColor": "#eeedd3",
+      "parent": "#a464iu"
+    },
+    {
+      "@id": "#nxqgmq",
+      "name": "← awesome-bitcoin-blake",
+      "x": -4,
+      "y": -212,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 5,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    }
+  ],
+  "selectedNode": 0
+}

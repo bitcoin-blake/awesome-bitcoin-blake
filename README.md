@@ -1,5 +1,7 @@
 # Awesome Bitcoin BLAKE [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Mind map](https://mindstr.org/badge.svg)](https://mindstr.org/?uri=https://bitcoin-blake.github.io/awesome-bitcoin-blake/mindstr/index.jsonld)
+
 > A curated list of nodes, wallets, servers, explorers, pools, tools and docs for the Bitcoin BLAKE2b chain.
 
 On 8 August 2026 Bitcoin Knots nodes enforcing BIP-110 (the Reduced Data Temporary Softfork, RDTS) parted from the SHA256d chain at block 961,632. That branch produced only eight blocks in three weeks. On 30 August 2026, at block **961,640**, it changed proof-of-work from SHA256d to BLAKE2b (Knots [PR #359](https://github.com/bitcoinknots/bitcoin/pull/359)). Block headers are now 164 bytes (header v2), so most existing wallets, Electrum servers and explorers need patches to follow the chain. This list tracks what works today.

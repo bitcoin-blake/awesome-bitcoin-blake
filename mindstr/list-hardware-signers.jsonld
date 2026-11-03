@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Hardware signers",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#hardware-signers",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ft3k8u",
+      "name": "privkeyio/seedsigner",
+      "x": 228,
+      "y": -86,
+      "link": "https://github.com/privkeyio/seedsigner",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#it6792",
+      "name": "privkeyio/cc-firmware",
+      "x": 167,
+      "y": 158,
+      "link": "https://github.com/privkeyio/cc-firmware",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dnz3gb",
+      "name": "privkeyio/trezor-firmware",
+      "x": -125,
+      "y": 184,
+      "link": "https://github.com/privkeyio/trezor-firmware",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3ifse5",
+      "name": "privkeyio/lark",
+      "x": -245,
+      "y": -44,
+      "link": "https://github.com/privkeyio/lark",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ju3xzh",
+      "name": "← awesome-bitcoin-blake",
+      "x": -26,
+      "y": -211,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "selectedNode": 0
+}

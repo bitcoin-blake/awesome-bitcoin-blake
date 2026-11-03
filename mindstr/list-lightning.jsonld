@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Lightning",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#lightning",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#2da7xj",
+      "name": "dln-node-knots",
+      "x": 250,
+      "y": 0,
+      "link": "https://github.com/DarkWebDivingClub/dln-node-knots",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9e878e",
+      "name": "privkeyio/lightning",
+      "x": -125,
+      "y": 184,
+      "link": "https://github.com/privkeyio/lightning/tree/v26.06.7-blake2b",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cp2str",
+      "name": "← awesome-bitcoin-blake",
+      "x": -125,
+      "y": -184,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "selectedNode": 0
+}

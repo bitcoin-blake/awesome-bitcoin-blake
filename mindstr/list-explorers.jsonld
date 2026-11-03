@@ -1,0 +1,242 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Explorers",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#explorers",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#xwei9g",
+      "name": "Unflagged · 11",
+      "x": 105,
+      "y": 193,
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6bzs4i",
+      "name": "mempool.guide → Kilombino/mempool-bip110",
+      "x": 483,
+      "y": 108,
+      "bgColor": "#daeeff",
+      "parent": "#xwei9g"
+    },
+    {
+      "@id": "#fkywkd",
+      "name": "mempool.guide",
+      "x": 686,
+      "y": -259,
+      "link": "https://mempool.guide/",
+      "bgColor": "#daeeff",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#j8deiz",
+      "name": "mempool.kilombino.com",
+      "x": 830,
+      "y": -108,
+      "link": "https://mempool.kilombino.com/",
+      "bgColor": "#daeeff",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#aya9s9",
+      "name": "mempool.maveth.ca",
+      "x": 745,
+      "y": 73,
+      "link": "https://mempool.maveth.ca/",
+      "bgColor": "#daeeff",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#vn2imx",
+      "name": "Retropex/mempool",
+      "x": 783,
+      "y": 258,
+      "link": "https://github.com/Retropex/mempool",
+      "bgColor": "#daeeff",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#2tznvh",
+      "name": "jasonsopko/mempool",
+      "x": 609,
+      "y": 372,
+      "link": "https://github.com/jasonsopko/mempool",
+      "bgColor": "#daeeff",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#cnh2fk",
+      "name": "Kilombino/mempool-bip110",
+      "x": 519,
+      "y": 562,
+      "link": "https://github.com/Kilombino/mempool-bip110",
+      "bgColor": "#daeeff",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#dk76uz",
+      "name": "paulscode/mempool-pruned → 2rdzy/btc-rp…",
+      "x": -294,
+      "y": 435,
+      "bgColor": "#daeeff",
+      "parent": "#xwei9g"
+    },
+    {
+      "@id": "#5aggpq",
+      "name": "paulscode/mempool-pruned",
+      "x": 42,
+      "y": 636,
+      "link": "https://github.com/paulscode/mempool-pruned",
+      "bgColor": "#daeeff",
+      "parent": "#dk76uz"
+    },
+    {
+      "@id": "#eqmaaw",
+      "name": "paulscode/mempool-bip110",
+      "x": -219,
+      "y": 689,
+      "link": "https://github.com/paulscode/mempool-bip110",
+      "bgColor": "#daeeff",
+      "parent": "#dk76uz"
+    },
+    {
+      "@id": "#pjbq25",
+      "name": "Maveth/mempool-blake",
+      "x": -400,
+      "y": 539,
+      "link": "https://github.com/Maveth/mempool-blake",
+      "bgColor": "#daeeff",
+      "parent": "#dk76uz"
+    },
+    {
+      "@id": "#tz98k5",
+      "name": "blockvase.com",
+      "x": -621,
+      "y": 481,
+      "link": "https://blockvase.com/",
+      "bgColor": "#daeeff",
+      "parent": "#dk76uz"
+    },
+    {
+      "@id": "#437yyk",
+      "name": "2rdzy/btc-rpc-explorer",
+      "x": -672,
+      "y": 282,
+      "link": "https://github.com/2rdzy/btc-rpc-explorer",
+      "bgColor": "#daeeff",
+      "parent": "#dk76uz"
+    },
+    {
+      "@id": "#j3k2bu",
+      "name": "Flagged: experimental, testnet… · 1",
+      "x": -198,
+      "y": -130,
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uhqx6j",
+      "name": "blakerunner",
+      "x": -395,
+      "y": -260,
+      "link": "https://github.com/satoshipuzzles/blakerunner",
+      "bgColor": "#ffe2e6",
+      "parent": "#j3k2bu"
+    },
+    {
+      "@id": "#aurbbn",
+      "name": "← awesome-bitcoin-blake",
+      "x": 11,
+      "y": -212,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 2,
+      "end": 6
+    },
+    {
+      "start": 2,
+      "end": 7
+    },
+    {
+      "start": 2,
+      "end": 8
+    },
+    {
+      "start": 1,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 9,
+      "end": 13
+    },
+    {
+      "start": 9,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "selectedNode": 0
+}

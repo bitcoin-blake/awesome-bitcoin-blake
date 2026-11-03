@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Nodes",
+      "x": 0,
+      "y": 0,
+      "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#nodes",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#4af2dc",
+      "name": "Bitcoin Knots",
+      "x": 217,
+      "y": -106,
+      "link": "https://github.com/bitcoinknots/bitcoin",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7iui3z",
+      "name": "Bitcoin Knots website",
+      "x": 217,
+      "y": 106,
+      "link": "https://bitcoinknots.org/",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bq9ccn",
+      "name": "Knots release notes",
+      "x": 0,
+      "y": 213,
+      "link": "https://github.com/bitcoinknots/bitcoin/blob/v29.4.1.knots20260508/doc/release-notes.md",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3yirdr",
+      "name": "Knots Guix attestations",
+      "x": -217,
+      "y": 106,
+      "link": "https://github.com/bitcoinknots/guix.sigs",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ptf2jy",
+      "name": "Bitcoin Peer Map",
+      "x": -217,
+      "y": -106,
+      "link": "https://github.com/spyhunter493/Bitcoin-Peer-Map",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4bfy6j",
+      "name": "← awesome-bitcoin-blake",
+      "x": 0,
+      "y": -212,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "selectedNode": 0
+}
