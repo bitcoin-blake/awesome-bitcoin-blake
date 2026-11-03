@@ -21,8 +21,8 @@
     {
       "@id": "#9incsq",
       "name": "NonKYC",
-      "x": 241,
-      "y": -55,
+      "x": 222,
+      "y": -51,
       "link": "https://nonkyc.io/market/BTCB2_USDT",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,8 +30,8 @@
     {
       "@id": "#gwp9qx",
       "name": "SafeTrade",
-      "x": 65,
-      "y": 205,
+      "x": 60,
+      "y": 189,
       "link": "https://safetrade.com/exchange/XBT-USDT?type=basic",
       "bgColor": "#f3bee1",
       "parent": "#this"
@@ -39,8 +39,8 @@
     {
       "@id": "#7csjb6",
       "name": "AltQuick",
-      "x": -241,
-      "y": 55,
+      "x": -222,
+      "y": 51,
       "link": "https://altquick.com/market/bitcoin-blake2b-bitcoin/",
       "bgColor": "#f1c99c",
       "parent": "#this"
@@ -48,8 +48,8 @@
     {
       "@id": "#cyfvb8",
       "name": "← awesome-bitcoin-blake",
-      "x": -65,
-      "y": -205,
+      "x": -60,
+      "y": -189,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

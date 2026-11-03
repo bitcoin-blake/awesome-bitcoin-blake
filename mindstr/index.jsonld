@@ -21,8 +21,8 @@
     {
       "@id": "#tgdsut",
       "name": "Live site",
-      "x": 249,
-      "y": 17,
+      "x": 229,
+      "y": 16,
       "link": "https://bitcoin-blake.github.io/awesome-bitcoin-blake/",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,8 +30,8 @@
     {
       "@id": "#ijf3kk",
       "name": "A curated list of nodes, wallets, servers, explorers,…",
-      "x": 433,
-      "y": -233,
+      "x": 360,
+      "y": -226,
       "link": "https://bitcoin-blake.github.io/awesome-bitcoin-blake/",
       "bgColor": "#daeeff",
       "parent": "#tgdsut"
@@ -39,8 +39,8 @@
     {
       "@id": "#anp567",
       "name": "bitcoin-blake.github.io/awesome-bitcoin…",
-      "x": 588,
-      "y": -38,
+      "x": 499,
+      "y": -32,
       "link": "https://bitcoin-blake.github.io/awesome-bitcoin-blake/",
       "bgColor": "#daeeff",
       "parent": "#tgdsut"
@@ -48,8 +48,8 @@
     {
       "@id": "#svn3gp",
       "name": "There is nothing to claim",
-      "x": 479,
-      "y": 121,
+      "x": 412,
+      "y": 104,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#awesome-bitcoin-blake-awesome",
       "bgColor": "#daeeff",
       "parent": "#tgdsut"
@@ -57,8 +57,8 @@
     {
       "@id": "#vbyvwg",
       "name": "since Sep 2026 · last 3 Nov 2026",
-      "x": 482,
-      "y": 290,
+      "x": 408,
+      "y": 245,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/commits/gh-pages",
       "bgColor": "#ececec",
       "parent": "#tgdsut"
@@ -66,8 +66,8 @@
     {
       "@id": "#ahre4u",
       "name": "README · 15 ›",
-      "x": 306,
-      "y": 336,
+      "x": 263,
+      "y": 289,
       "link": "./readme.jsonld",
       "bgColor": "#ececec",
       "parent": "#tgdsut"
@@ -75,16 +75,16 @@
     {
       "@id": "#ibdfdz",
       "name": "Chain parameters, nodes, wallets, electrum…",
-      "x": -42,
-      "y": 210,
+      "x": -38,
+      "y": 193,
       "bgColor": "#e9c1ef",
       "parent": "#this"
     },
     {
       "@id": "#z7edqb",
       "name": "Chain parameters ›",
-      "x": 85,
-      "y": 419,
+      "x": 73,
+      "y": 360,
       "link": "./list-chain-parameters.jsonld",
       "bgColor": "#f7e4f9",
       "parent": "#ibdfdz"
@@ -92,8 +92,8 @@
     {
       "@id": "#2qq2fn",
       "name": "Nodes · 5 ›",
-      "x": -27,
-      "y": 501,
+      "x": -23,
+      "y": 425,
       "link": "./list-nodes.jsonld",
       "bgColor": "#f7e4f9",
       "parent": "#ibdfdz"
@@ -101,8 +101,8 @@
     {
       "@id": "#ri2pzw",
       "name": "Wallets · 10 ›",
-      "x": -129,
-      "y": 402,
+      "x": -111,
+      "y": 339,
       "link": "./list-wallets.jsonld",
       "bgColor": "#f7e4f9",
       "parent": "#ibdfdz"
@@ -110,8 +110,8 @@
     {
       "@id": "#qbizrq",
       "name": "Electrum servers · 5 ›",
-      "x": -278,
-      "y": 446,
+      "x": -236,
+      "y": 383,
       "link": "./list-electrum-servers.jsonld",
       "bgColor": "#f7e4f9",
       "parent": "#ibdfdz"
@@ -119,16 +119,16 @@
     {
       "@id": "#yyfuzg",
       "name": "Explorers, mining, node packaging…",
-      "x": -238,
-      "y": 66,
+      "x": -203,
+      "y": 64,
       "bgColor": "#fec0b1",
       "parent": "#this"
     },
     {
       "@id": "#xet7zf",
       "name": "Explorers · 12 ›",
-      "x": -391,
-      "y": 265,
+      "x": -337,
+      "y": 230,
       "link": "./list-explorers.jsonld",
       "bgColor": "#ffe3dc",
       "parent": "#yyfuzg"
@@ -136,8 +136,8 @@
     {
       "@id": "#wjzwqw",
       "name": "Mining · 34 ›",
-      "x": -531,
-      "y": 219,
+      "x": -450,
+      "y": 184,
       "link": "./list-mining.jsonld",
       "bgColor": "#ffe3dc",
       "parent": "#yyfuzg"
@@ -145,8 +145,8 @@
     {
       "@id": "#cpmgtf",
       "name": "Node packaging · 13 ›",
-      "x": -488,
-      "y": 93,
+      "x": -450,
+      "y": 80,
       "link": "./list-node-packaging.jsonld",
       "bgColor": "#ffe3dc",
       "parent": "#yyfuzg"
@@ -154,8 +154,8 @@
     {
       "@id": "#a85fzz",
       "name": "Hardware signers · 4 ›",
-      "x": -590,
-      "y": -14,
+      "x": -500,
+      "y": -12,
       "link": "./list-hardware-signers.jsonld",
       "bgColor": "#ffe3dc",
       "parent": "#yyfuzg"
@@ -163,16 +163,16 @@
     {
       "@id": "#eitj67",
       "name": "Libraries, lightning, cross-chain and…",
-      "x": -175,
-      "y": -152,
+      "x": -158,
+      "y": -136,
       "bgColor": "#d7d59b",
       "parent": "#this"
     },
     {
       "@id": "#bpmjzd",
       "name": "Libraries · 5 ›",
-      "x": -453,
-      "y": -180,
+      "x": -397,
+      "y": -155,
       "link": "./list-libraries.jsonld",
       "bgColor": "#eeedd3",
       "parent": "#eitj67"
@@ -180,8 +180,8 @@
     {
       "@id": "#r8aetn",
       "name": "Lightning · 2 ›",
-      "x": -470,
-      "y": -294,
+      "x": -399,
+      "y": -248,
       "link": "./list-lightning.jsonld",
       "bgColor": "#eeedd3",
       "parent": "#eitj67"
@@ -189,8 +189,8 @@
     {
       "@id": "#j3rh5f",
       "name": "Cross-chain and replay · 1 ›",
-      "x": -310,
-      "y": -338,
+      "x": -267,
+      "y": -292,
       "link": "./list-cross-chain-and-replay.jsonld",
       "bgColor": "#eeedd3",
       "parent": "#eitj67"
@@ -198,8 +198,8 @@
     {
       "@id": "#mhgzj7",
       "name": "Exchanges · 3 ›",
-      "x": -239,
-      "y": -459,
+      "x": -203,
+      "y": -389,
       "link": "./list-exchanges.jsonld",
       "bgColor": "#eeedd3",
       "parent": "#eitj67"
@@ -207,8 +207,8 @@
     {
       "@id": "#67qhwk",
       "name": "Specs and documentation, community and news",
-      "x": 29,
-      "y": -210,
+      "x": 34,
+      "y": -181,
       "bgColor": "#9be2d1",
       "parent": "#this"
     },
@@ -216,7 +216,7 @@
       "@id": "#s9du6c",
       "name": "Specs and documentation · 7 ›",
       "x": 3,
-      "y": -425,
+      "y": -382,
       "link": "./list-specs-and-documentation.jsonld",
       "bgColor": "#d3f3eb",
       "parent": "#67qhwk"
@@ -224,8 +224,8 @@
     {
       "@id": "#tjeu4p",
       "name": "Community and news · 6 ›",
-      "x": 185,
-      "y": -476,
+      "x": 135,
+      "y": -338,
       "link": "./list-community-and-news.jsonld",
       "bgColor": "#d3f3eb",
       "parent": "#67qhwk"

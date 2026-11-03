@@ -21,8 +21,8 @@
     {
       "@id": "#swzzzt",
       "name": "bip110-replay-checker",
-      "x": 217,
-      "y": 106,
+      "x": 199,
+      "y": 98,
       "link": "https://github.com/TIROBITCOIN/bip110-replay-checker",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,8 +30,8 @@
     {
       "@id": "#pj9sd5",
       "name": "← awesome-bitcoin-blake",
-      "x": -217,
-      "y": -106,
+      "x": -199,
+      "y": -98,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

@@ -21,16 +21,16 @@
     {
       "@id": "#ab9ysn",
       "name": "sections 1/3",
-      "x": 229,
-      "y": -84,
+      "x": 211,
+      "y": -78,
       "bgColor": "#acd5ff",
       "parent": "#this"
     },
     {
       "@id": "#qhtzie",
       "name": "Contents",
-      "x": 335,
-      "y": -316,
+      "x": 280,
+      "y": -272,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#contents",
       "bgColor": "#daeeff",
       "parent": "#ab9ysn"
@@ -38,8 +38,8 @@
     {
       "@id": "#2sgmjt",
       "name": "Chain parameters",
-      "x": 479,
-      "y": -293,
+      "x": 410,
+      "y": -248,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ab9ysn"
@@ -47,8 +47,8 @@
     {
       "@id": "#j9h6ge",
       "name": "Nodes",
-      "x": 459,
-      "y": -169,
+      "x": 395,
+      "y": -145,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#nodes",
       "bgColor": "#daeeff",
       "parent": "#ab9ysn"
@@ -56,8 +56,8 @@
     {
       "@id": "#ejt2c7",
       "name": "Wallets",
-      "x": 579,
-      "y": -97,
+      "x": 491,
+      "y": -82,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#wallets",
       "bgColor": "#daeeff",
       "parent": "#ab9ysn"
@@ -65,8 +65,8 @@
     {
       "@id": "#tvx8v7",
       "name": "Electrum servers",
-      "x": 500,
-      "y": 9,
+      "x": 430,
+      "y": 8,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#electrum-servers",
       "bgColor": "#daeeff",
       "parent": "#ab9ysn"
@@ -74,16 +74,16 @@
     {
       "@id": "#4bfmpa",
       "name": "sections 2/3",
-      "x": -12,
-      "y": 212,
+      "x": -11,
+      "y": 195,
       "bgColor": "#f3bee1",
       "parent": "#this"
     },
     {
       "@id": "#c2mpq8",
       "name": "Explorers",
-      "x": 420,
-      "y": 230,
+      "x": 362,
+      "y": 198,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#explorers",
       "bgColor": "#fce3f3",
       "parent": "#4bfmpa"
@@ -91,89 +91,89 @@
     {
       "@id": "#yykmee",
       "name": "Mining",
-      "x": 239,
-      "y": 459,
+      "x": 202,
+      "y": 389,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#mining",
-      "bgColor": "#fce3f3",
+      "bgColor": "#e2c3f5",
       "parent": "#4bfmpa"
     },
     {
       "@id": "#7kgwkb",
       "name": "Pools",
-      "x": 492,
-      "y": 481,
+      "x": 413,
+      "y": 404,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#pools",
-      "bgColor": "#fce3f3",
+      "bgColor": "#f4e5fc",
       "parent": "#yykmee"
     },
     {
       "@id": "#x7t4w7",
       "name": "Gateways and miner software",
-      "x": 414,
-      "y": 625,
+      "x": 368,
+      "y": 520,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#gateways-and-miner-software",
-      "bgColor": "#fce3f3",
+      "bgColor": "#f4e5fc",
       "parent": "#yykmee"
     },
     {
       "@id": "#dsw684",
       "name": "Hashrate rental",
-      "x": 215,
-      "y": 610,
+      "x": 169,
+      "y": 512,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#hashrate-rental",
-      "bgColor": "#fce3f3",
+      "bgColor": "#f4e5fc",
       "parent": "#yykmee"
     },
     {
       "@id": "#v88t4a",
       "name": "Mining guides",
-      "x": 99,
-      "y": 709,
+      "x": 82,
+      "y": 591,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#mining-guides",
-      "bgColor": "#fce3f3",
+      "bgColor": "#f4e5fc",
       "parent": "#yykmee"
     },
     {
       "@id": "#skzt29",
       "name": "Node packaging",
-      "x": -191,
-      "y": 393,
+      "x": -164,
+      "y": 338,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#node-packaging",
-      "bgColor": "#fce3f3",
+      "bgColor": "#fdbdc8",
       "parent": "#4bfmpa"
     },
     {
       "@id": "#t4pwzt",
       "name": "StartOS",
-      "x": -142,
-      "y": 626,
+      "x": -120,
+      "y": 526,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#startos",
-      "bgColor": "#fce3f3",
+      "bgColor": "#ffe2e7",
       "parent": "#skzt29"
     },
     {
       "@id": "#jhaa84",
       "name": "Umbrel",
-      "x": -305,
-      "y": 665,
+      "x": -229,
+      "y": 499,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#umbrel",
-      "bgColor": "#fce3f3",
+      "bgColor": "#ffe2e7",
       "parent": "#skzt29"
     },
     {
       "@id": "#wavvy9",
       "name": "Docker and distributions",
-      "x": -406,
-      "y": 536,
+      "x": -341,
+      "y": 450,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#docker-and-distributions",
-      "bgColor": "#fce3f3",
+      "bgColor": "#ffe2e7",
       "parent": "#skzt29"
     },
     {
       "@id": "#i9w3v4",
       "name": "Hardware signers",
-      "x": -446,
-      "y": 328,
+      "x": -378,
+      "y": 278,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#hardware-signers",
       "bgColor": "#fce3f3",
       "parent": "#4bfmpa"
@@ -181,8 +181,8 @@
     {
       "@id": "#e9sufn",
       "name": "Libraries",
-      "x": -445,
-      "y": 194,
+      "x": -382,
+      "y": 167,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#libraries",
       "bgColor": "#fce3f3",
       "parent": "#4bfmpa"
@@ -190,16 +190,16 @@
     {
       "@id": "#g45zx9",
       "name": "sections 3/3",
-      "x": -205,
-      "y": -121,
+      "x": -189,
+      "y": -112,
       "bgColor": "#f1c99c",
       "parent": "#this"
     },
     {
       "@id": "#vz8rhu",
       "name": "Lightning",
-      "x": -497,
-      "y": -44,
+      "x": -428,
+      "y": -37,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#lightning",
       "bgColor": "#fbe8d3",
       "parent": "#g45zx9"
@@ -207,8 +207,8 @@
     {
       "@id": "#35gtrs",
       "name": "Cross-chain and replay",
-      "x": -554,
-      "y": -173,
+      "x": -469,
+      "y": -147,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#cross-chain-and-replay",
       "bgColor": "#fbe8d3",
       "parent": "#g45zx9"
@@ -216,8 +216,8 @@
     {
       "@id": "#fiqrfa",
       "name": "Exchanges",
-      "x": -412,
-      "y": -241,
+      "x": -354,
+      "y": -207,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#exchanges",
       "bgColor": "#fbe8d3",
       "parent": "#g45zx9"
@@ -225,8 +225,8 @@
     {
       "@id": "#fad69b",
       "name": "Specs and documentation",
-      "x": -405,
-      "y": -379,
+      "x": -364,
+      "y": -321,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#specs-and-documentation",
       "bgColor": "#fbe8d3",
       "parent": "#g45zx9"
@@ -234,8 +234,8 @@
     {
       "@id": "#fnrzmm",
       "name": "Community and news",
-      "x": -211,
-      "y": -381,
+      "x": -170,
+      "y": -328,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#community-and-news",
       "bgColor": "#fbe8d3",
       "parent": "#g45zx9"
@@ -243,8 +243,8 @@
     {
       "@id": "#3y3s3p",
       "name": "← awesome-bitcoin-blake",
-      "x": 37,
-      "y": -210,
+      "x": 34,
+      "y": -193,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

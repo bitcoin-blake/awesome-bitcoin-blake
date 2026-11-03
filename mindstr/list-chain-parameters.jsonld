@@ -21,16 +21,16 @@
     {
       "@id": "#ujs2ci",
       "name": "Proof-of-work → RDTS block weight limit",
-      "x": 232,
-      "y": 67,
+      "x": 213,
+      "y": 65,
       "bgColor": "#acd5ff",
       "parent": "#this"
     },
     {
       "@id": "#442pm7",
       "name": "Proof-of-work: BLAKE2b-256, header v2 (164…",
-      "x": 412,
-      "y": -241,
+      "x": 354,
+      "y": -207,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ujs2ci"
@@ -38,8 +38,8 @@
     {
       "@id": "#imr4n9",
       "name": "Last shared block with SHA256d chain:…",
-      "x": 579,
-      "y": -96,
+      "x": 491,
+      "y": -81,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ujs2ci"
@@ -47,8 +47,8 @@
     {
       "@id": "#tpktj6",
       "name": "First RDTS-only block: 961,632 (8 August…",
-      "x": 489,
-      "y": 111,
+      "x": 421,
+      "y": 109,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ujs2ci"
@@ -56,8 +56,8 @@
     {
       "@id": "#u94rpy",
       "name": "First BLAKE2b block: 961,640 (30 August…",
-      "x": 480,
-      "y": 291,
+      "x": 407,
+      "y": 247,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ujs2ci"
@@ -65,8 +65,8 @@
     {
       "@id": "#7txfyn",
       "name": "Headline committed at the fork: 8-30…",
-      "x": 265,
-      "y": 360,
+      "x": 228,
+      "y": 310,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ujs2ci"
@@ -74,8 +74,8 @@
     {
       "@id": "#v5njcx",
       "name": "RDTS block weight limit: 800 kWU from…",
-      "x": 103,
-      "y": 494,
+      "x": 88,
+      "y": 418,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#daeeff",
       "parent": "#ujs2ci"
@@ -83,16 +83,16 @@
     {
       "@id": "#z8kicz",
       "name": "Replay protection → Reference implement…",
-      "x": -291,
-      "y": -14,
+      "x": -290,
+      "y": -13,
       "bgColor": "#febdc6",
       "parent": "#this"
     },
     {
       "@id": "#7348h9",
       "name": "Replay protection: Opt-in SIGHASHUNIFIED…",
-      "x": -313,
-      "y": 331,
+      "x": -269,
+      "y": 285,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#ffe2e6",
       "parent": "#z8kicz"
@@ -100,8 +100,8 @@
     {
       "@id": "#jtny2v",
       "name": "P2P magic: f9 be b4 d9 (unchanged)",
-      "x": -515,
-      "y": 245,
+      "x": -436,
+      "y": 208,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#ffe2e6",
       "parent": "#z8kicz"
@@ -109,8 +109,8 @@
     {
       "@id": "#zvvi4r",
       "name": "P2P / RPC ports: 8333 / 8332 (unchanged)",
-      "x": -496,
-      "y": 56,
+      "x": -426,
+      "y": 48,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#ffe2e6",
       "parent": "#z8kicz"
@@ -118,8 +118,8 @@
     {
       "@id": "#ezqtt6",
       "name": "Address prefixes: unchanged (1, 3, bc1)",
-      "x": -569,
-      "y": -133,
+      "x": -482,
+      "y": -113,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#ffe2e6",
       "parent": "#z8kicz"
@@ -127,8 +127,8 @@
     {
       "@id": "#8edjsn",
       "name": "DNS seeds marked as supporting the…",
-      "x": -399,
-      "y": -256,
+      "x": -343,
+      "y": -220,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#ffe2e6",
       "parent": "#z8kicz"
@@ -136,8 +136,8 @@
     {
       "@id": "#75s7ir",
       "name": "Reference implementation: Bitcoin Knots…",
-      "x": -304,
-      "y": -430,
+      "x": -257,
+      "y": -364,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#chain-parameters",
       "bgColor": "#ffe2e6",
       "parent": "#z8kicz"
@@ -145,8 +145,8 @@
     {
       "@id": "#7x3k79",
       "name": "← awesome-bitcoin-blake",
-      "x": 51,
-      "y": -208,
+      "x": 47,
+      "y": -191,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

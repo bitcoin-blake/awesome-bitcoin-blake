@@ -21,8 +21,8 @@
     {
       "@id": "#ngjuhg",
       "name": "Knots PR #359",
-      "x": 198,
-      "y": -129,
+      "x": 182,
+      "y": -119,
       "link": "https://github.com/bitcoinknots/bitcoin/pull/359",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,7 +30,7 @@
     {
       "@id": "#ad25k5",
       "name": "BIP-110: Reduced Data Temporary Softfork",
-      "x": 248,
+      "x": 228,
       "y": 66,
       "link": "https://bips.dev/110/",
       "bgColor": "#d9c6fb",
@@ -39,8 +39,8 @@
     {
       "@id": "#6zhwac",
       "name": "BIP110 code review for humans",
-      "x": 152,
-      "y": 167,
+      "x": 140,
+      "y": 152,
       "link": "https://bitcoinknots.org/learn/bip110-code-walkthrough",
       "bgColor": "#f9bdd5",
       "parent": "#this"
@@ -48,8 +48,8 @@
     {
       "@id": "#sigj2h",
       "name": "BKIP-0001: The BLAKE2b hardfork",
-      "x": -33,
-      "y": 212,
+      "x": -30,
+      "y": 196,
       "link": "https://github.com/DarkWebDivingClub/bkips",
       "bgColor": "#fcc2a9",
       "parent": "#this"
@@ -57,8 +57,8 @@
     {
       "@id": "#2gvkzt",
       "name": "btc-blake2b.org",
-      "x": -198,
-      "y": 129,
+      "x": -182,
+      "y": 119,
       "link": "https://btc-blake2b.org/",
       "bgColor": "#e0d199",
       "parent": "#this"
@@ -66,8 +66,8 @@
     {
       "@id": "#5gpqg5",
       "name": "bitcoinbip110.org",
-      "x": -248,
-      "y": -28,
+      "x": -239,
+      "y": -26,
       "link": "https://github.com/Bitcoin-BIP110/bitcoinbip110.github.io",
       "bgColor": "#b1dfb5",
       "parent": "#this"
@@ -75,8 +75,8 @@
     {
       "@id": "#wzta82",
       "name": "The Bitcoin Manual: What is the BLAKE2b…",
-      "x": -152,
-      "y": -167,
+      "x": -140,
+      "y": -152,
       "link": "https://thebitcoinmanual.com/articles/blake2b-hard-fork/",
       "bgColor": "#95e1e3",
       "parent": "#this"
@@ -84,8 +84,8 @@
     {
       "@id": "#jw3kjf",
       "name": "← awesome-bitcoin-blake",
-      "x": 33,
-      "y": -212,
+      "x": 30,
+      "y": -196,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

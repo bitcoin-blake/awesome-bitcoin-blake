@@ -21,7 +21,7 @@
     {
       "@id": "#2da7xj",
       "name": "dln-node-knots",
-      "x": 250,
+      "x": 230,
       "y": 0,
       "link": "https://github.com/DarkWebDivingClub/dln-node-knots",
       "bgColor": "#acd5ff",
@@ -30,8 +30,8 @@
     {
       "@id": "#9e878e",
       "name": "privkeyio/lightning",
-      "x": -125,
-      "y": 184,
+      "x": -115,
+      "y": 169,
       "link": "https://github.com/privkeyio/lightning/tree/v26.06.7-blake2b",
       "bgColor": "#febdc6",
       "parent": "#this"
@@ -39,8 +39,8 @@
     {
       "@id": "#cp2str",
       "name": "← awesome-bitcoin-blake",
-      "x": -125,
-      "y": -184,
+      "x": -115,
+      "y": -169,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

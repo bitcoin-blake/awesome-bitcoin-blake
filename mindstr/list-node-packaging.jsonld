@@ -21,8 +21,8 @@
     {
       "@id": "#dguykc",
       "name": "StartOS",
-      "x": 203,
-      "y": 124,
+      "x": 186,
+      "y": 114,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#startos",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,96 +30,96 @@
     {
       "@id": "#28eue2",
       "name": "Unflagged · 7",
-      "x": 446,
-      "y": 192,
-      "bgColor": "#daeeff",
+      "x": 384,
+      "y": 165,
+      "bgColor": "#9addf5",
       "parent": "#dguykc"
     },
     {
       "@id": "#f4n9qu",
       "name": "knots-blake2b-startos",
-      "x": 676,
-      "y": -276,
+      "x": 568,
+      "y": -232,
       "link": "https://github.com/paulscode/knots-blake2b-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#krwt6e",
       "name": "Retropex/datum-gateway-startos",
-      "x": 832,
-      "y": -99,
+      "x": 693,
+      "y": -83,
       "link": "https://github.com/Retropex/datum-gateway-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#emecna",
       "name": "Maveth/datum-gateway-startos",
-      "x": 734,
-      "y": 130,
+      "x": 617,
+      "y": 109,
       "link": "https://github.com/Maveth/datum-gateway-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#u8v9bw",
       "name": "electrs-pruned-startos",
-      "x": 734,
-      "y": 348,
+      "x": 611,
+      "y": 290,
       "link": "https://github.com/paulscode/electrs-pruned-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#j6zbf9",
       "name": "mempool-pruned-startos",
-      "x": 532,
-      "y": 449,
+      "x": 447,
+      "y": 377,
       "link": "https://github.com/paulscode/mempool-pruned-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#2z3p7w",
       "name": "privkeyio/fulcrum-startos",
-      "x": 403,
-      "y": 627,
+      "x": 345,
+      "y": 522,
       "link": "https://github.com/privkeyio/fulcrum-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#pvzwd8",
       "name": "privkeyio/canary-startos",
-      "x": 150,
-      "y": 625,
+      "x": 121,
+      "y": 525,
       "link": "https://github.com/privkeyio/canary-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#d3f1fd",
       "parent": "#28eue2"
     },
     {
       "@id": "#57iy7q",
       "name": "Flagged: experimental, testnet… · 1",
-      "x": -176,
-      "y": 479,
-      "bgColor": "#daeeff",
+      "x": -128,
+      "y": 349,
+      "bgColor": "#c4cdff",
       "parent": "#dguykc"
     },
     {
       "@id": "#qprvms",
       "name": "datum-blake2b-startos",
-      "x": -223,
-      "y": 609,
+      "x": -188,
+      "y": 511,
       "link": "https://github.com/paulscode/datum-blake2b-startos",
-      "bgColor": "#daeeff",
+      "bgColor": "#e5eaff",
       "parent": "#57iy7q"
     },
     {
       "@id": "#7fucmt",
       "name": "Umbrel",
-      "x": -244,
-      "y": 48,
+      "x": -224,
+      "y": 44,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#umbrel",
       "bgColor": "#f3bee1",
       "parent": "#this"
@@ -127,8 +127,8 @@
     {
       "@id": "#t922yq",
       "name": "Umbrel Bitcoin Node",
-      "x": -413,
-      "y": 240,
+      "x": -355,
+      "y": 206,
       "link": "https://github.com/Retropex/umbrel-bitcoin",
       "bgColor": "#fce3f3",
       "parent": "#7fucmt"
@@ -136,8 +136,8 @@
     {
       "@id": "#26rfi6",
       "name": "PaulsCode community app store",
-      "x": -572,
-      "y": 124,
+      "x": -417,
+      "y": 90,
       "link": "https://github.com/paulscode/umbrel-store",
       "bgColor": "#fce3f3",
       "parent": "#7fucmt"
@@ -145,8 +145,8 @@
     {
       "@id": "#u28rkq",
       "name": "Retropex/docker-electrs",
-      "x": -496,
-      "y": -52,
+      "x": -427,
+      "y": -45,
       "link": "https://github.com/Retropex/docker-electrs",
       "bgColor": "#fce3f3",
       "parent": "#7fucmt"
@@ -154,8 +154,8 @@
     {
       "@id": "#varvfj",
       "name": "Docker and distributions",
-      "x": -171,
-      "y": -155,
+      "x": -157,
+      "y": -143,
       "link": "https://github.com/bitcoin-blake/awesome-bitcoin-blake/blob/gh-pages/README.md#docker-and-distributions",
       "bgColor": "#f1c99c",
       "parent": "#this"
@@ -163,8 +163,8 @@
     {
       "@id": "#ucttef",
       "name": "bitcoin-knots-docker",
-      "x": -404,
-      "y": -251,
+      "x": -347,
+      "y": -216,
       "link": "https://github.com/rerrl/bitcoin-knots-docker",
       "bgColor": "#fbe8d3",
       "parent": "#varvfj"
@@ -172,8 +172,8 @@
     {
       "@id": "#vzipyd",
       "name": "bitcoinknots/packaging",
-      "x": -324,
-      "y": -419,
+      "x": -236,
+      "y": -305,
       "link": "https://github.com/bitcoinknots/packaging",
       "bgColor": "#fbe8d3",
       "parent": "#varvfj"
@@ -181,8 +181,8 @@
     {
       "@id": "#miy6ts",
       "name": "← awesome-bitcoin-blake",
-      "x": 24,
-      "y": -211,
+      "x": 22,
+      "y": -195,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

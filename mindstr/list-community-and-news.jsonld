@@ -21,8 +21,8 @@
     {
       "@id": "#r76gtv",
       "name": "Bitcoin Knots Discord",
-      "x": 207,
-      "y": -120,
+      "x": 190,
+      "y": -110,
       "link": "https://discord.gg/3Ccegp9YrU",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,8 +30,8 @@
     {
       "@id": "#qmk4u7",
       "name": "Bitcoin Knots Telegram",
-      "x": 239,
-      "y": 63,
+      "x": 220,
+      "y": 66,
       "link": "https://t.me/Bitcoin_Knots",
       "bgColor": "#d9c6fb",
       "parent": "#this"
@@ -39,8 +39,8 @@
     {
       "@id": "#ysvez3",
       "name": "Bitcoin Knots on X",
-      "x": 123,
-      "y": 198,
+      "x": 84,
+      "y": 202,
       "link": "https://x.com/BitcoinKnots",
       "bgColor": "#f9bdd5",
       "parent": "#this"
@@ -48,8 +48,8 @@
     {
       "@id": "#83zuf9",
       "name": "PaulsCode forum: Knots 29.4 BIP-110 blocks",
-      "x": -142,
-      "y": 184,
+      "x": -115,
+      "y": 158,
       "link": "https://paulscode.com/t/knots-29-4-8-05-2026-bip-110-blocks/1240",
       "bgColor": "#fcc2a9",
       "parent": "#this"
@@ -57,8 +57,8 @@
     {
       "@id": "#vrzefk",
       "name": "Bitcoin BLAKE2b hard fork explained",
-      "x": -283,
-      "y": 32,
+      "x": -282,
+      "y": 29,
       "link": "https://www.youtube.com/watch?v=_dZQ-I2OEo4",
       "bgColor": "#e0d199",
       "parent": "#this"
@@ -66,8 +66,8 @@
     {
       "@id": "#hvyxxr",
       "name": "Joint statement of OCEAN and Luke Dashjr",
-      "x": -183,
-      "y": -145,
+      "x": -169,
+      "y": -133,
       "link": "https://www.prnewswire.com/news-releases/joint-statement-of-ocean-and-luke-dashjr-302864347.html",
       "bgColor": "#b1dfb5",
       "parent": "#this"
@@ -75,8 +75,8 @@
     {
       "@id": "#qahfae",
       "name": "← awesome-bitcoin-blake",
-      "x": 19,
-      "y": -212,
+      "x": 17,
+      "y": -195,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

@@ -21,7 +21,7 @@
     {
       "@id": "#fxz322",
       "name": "Unflagged · 6",
-      "x": 250,
+      "x": 230,
       "y": 3,
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -29,8 +29,8 @@
     {
       "@id": "#s77s87",
       "name": "Lazarus Pool",
-      "x": 373,
-      "y": -283,
+      "x": 321,
+      "y": -243,
       "link": "https://pool.lazarus-xbt.xyz/",
       "bgColor": "#daeeff",
       "parent": "#fxz322"
@@ -38,8 +38,8 @@
     {
       "@id": "#k73rni",
       "name": "CONVOY",
-      "x": 536,
-      "y": -210,
+      "x": 454,
+      "y": -178,
       "link": "https://convoy.xyz/",
       "bgColor": "#daeeff",
       "parent": "#fxz322"
@@ -47,8 +47,8 @@
     {
       "@id": "#r8zm2z",
       "name": "Xor Pool",
-      "x": 495,
-      "y": -58,
+      "x": 426,
+      "y": -50,
       "link": "https://xorpool.com/",
       "bgColor": "#daeeff",
       "parent": "#fxz322"
@@ -56,8 +56,8 @@
     {
       "@id": "#wzv4c3",
       "name": "Blockvase Pool",
-      "x": 582,
-      "y": 80,
+      "x": 494,
+      "y": 68,
       "link": "https://blockvase.com/#pool",
       "bgColor": "#daeeff",
       "parent": "#fxz322"
@@ -65,8 +65,8 @@
     {
       "@id": "#7fnz2s",
       "name": "Terminus Pool",
-      "x": 449,
-      "y": 188,
+      "x": 386,
+      "y": 161,
       "link": "https://terminuspool.xyz/",
       "bgColor": "#daeeff",
       "parent": "#fxz322"
@@ -74,8 +74,8 @@
     {
       "@id": "#p89exh",
       "name": "Sentinel BTCB2 Pool",
-      "x": 429,
-      "y": 344,
+      "x": 364,
+      "y": 291,
       "link": "https://pool.sentineldefensetechnologies.co.za/",
       "bgColor": "#daeeff",
       "parent": "#fxz322"
@@ -83,113 +83,113 @@
     {
       "@id": "#urtpxv",
       "name": "Flagged: experimental, testnet… · 9",
-      "x": -220,
-      "y": 102,
+      "x": -202,
+      "y": 93,
       "bgColor": "#febdc6",
       "parent": "#this"
     },
     {
       "@id": "#4dg5c4",
       "name": "RATUM Prime → c2pool",
-      "x": -232,
-      "y": 377,
-      "bgColor": "#ffe2e6",
+      "x": -199,
+      "y": 324,
+      "bgColor": "#f0bfe6",
       "parent": "#urtpxv"
     },
     {
       "@id": "#kwm3he",
       "name": "RATUM Prime",
       "x": 4,
-      "y": 637,
+      "y": 535,
       "link": "https://pool.iohzrd.tech/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#fbe3f5",
       "parent": "#4dg5c4"
     },
     {
       "@id": "#qvd9cw",
       "name": "Tyger Pool",
-      "x": -198,
-      "y": 694,
+      "x": -165,
+      "y": 578,
       "link": "https://tygerpool.com/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#fbe3f5",
       "parent": "#4dg5c4"
     },
     {
       "@id": "#sf37xb",
       "name": "RIPTIDE",
-      "x": -348,
-      "y": 565,
+      "x": -292,
+      "y": 474,
       "link": "https://riptide.maveth.ca/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#fbe3f5",
       "parent": "#4dg5c4"
     },
     {
       "@id": "#fuhjpf",
       "name": "gridpool-blake2b",
-      "x": -558,
-      "y": 534,
+      "x": -465,
+      "y": 445,
       "link": "https://github.com/gridlabs-science/gridpool-blake2b",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#fbe3f5",
       "parent": "#4dg5c4"
     },
     {
       "@id": "#dry8wx",
       "name": "c2pool",
-      "x": -619,
-      "y": 360,
+      "x": -520,
+      "y": 302,
       "link": "https://github.com/frstrtr/c2pool",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#fbe3f5",
       "parent": "#4dg5c4"
     },
     {
       "@id": "#rmckuv",
       "name": "AlphaPool BLAKE2b → Paperclip Pool",
-      "x": -575,
-      "y": -114,
-      "bgColor": "#ffe2e6",
+      "x": -419,
+      "y": -83,
+      "bgColor": "#fcc2a8",
       "parent": "#urtpxv"
     },
     {
       "@id": "#6cicry",
       "name": "AlphaPool BLAKE2b",
-      "x": -742,
-      "y": 91,
+      "x": -624,
+      "y": 76,
       "link": "https://knots.alphapool.tech/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#ffe5d8",
       "parent": "#rmckuv"
     },
     {
       "@id": "#7c28q6",
       "name": "B2Pool",
-      "x": -835,
-      "y": -75,
+      "x": -696,
+      "y": -62,
       "link": "https://b2pool.io/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#ffe5d8",
       "parent": "#rmckuv"
     },
     {
       "@id": "#4qbh3e",
       "name": "Omega Pool",
-      "x": -704,
-      "y": -220,
+      "x": -591,
+      "y": -185,
       "link": "https://omegapool.tech/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#ffe5d8",
       "parent": "#rmckuv"
     },
     {
       "@id": "#m3xps2",
       "name": "Paperclip Pool",
-      "x": -693,
-      "y": -404,
+      "x": -577,
+      "y": -336,
       "link": "https://pool.paperclippool.xyz/",
-      "bgColor": "#ffe2e6",
+      "bgColor": "#ffe5d8",
       "parent": "#rmckuv"
     },
     {
       "@id": "#yxjf84",
       "name": "← Mining",
       "x": 3,
-      "y": -212,
+      "y": -195,
       "link": "./list-mining.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"

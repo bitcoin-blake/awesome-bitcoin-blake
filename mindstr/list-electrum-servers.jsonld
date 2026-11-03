@@ -21,8 +21,8 @@
     {
       "@id": "#rfby2g",
       "name": "electrs-pruned",
-      "x": 217,
-      "y": -106,
+      "x": 199,
+      "y": -98,
       "link": "https://github.com/paulscode/electrs-pruned",
       "bgColor": "#acd5ff",
       "parent": "#this"
@@ -30,8 +30,8 @@
     {
       "@id": "#arxjt8",
       "name": "Shulcrum",
-      "x": 217,
-      "y": 106,
+      "x": 199,
+      "y": 98,
       "link": "https://github.com/Kilombino/Shulcrum",
       "bgColor": "#e0c4f6",
       "parent": "#this"
@@ -40,7 +40,7 @@
       "@id": "#jtyjdw",
       "name": "privkeyio/Fulcrum",
       "x": 0,
-      "y": 213,
+      "y": 196,
       "link": "https://github.com/privkeyio/Fulcrum",
       "bgColor": "#febdc6",
       "parent": "#this"
@@ -48,8 +48,8 @@
     {
       "@id": "#dtqx4z",
       "name": "jasonsopko/electrs",
-      "x": -217,
-      "y": 106,
+      "x": -199,
+      "y": 98,
       "link": "https://github.com/jasonsopko/electrs",
       "bgColor": "#f1c99c",
       "parent": "#this"
@@ -57,8 +57,8 @@
     {
       "@id": "#u2s2vv",
       "name": "blake2b-light-clients",
-      "x": -217,
-      "y": -106,
+      "x": -199,
+      "y": -98,
       "link": "https://github.com/Kilombino/blake2b-light-clients",
       "bgColor": "#c1dba8",
       "parent": "#this"
@@ -67,7 +67,7 @@
       "@id": "#vx2z65",
       "name": "← awesome-bitcoin-blake",
       "x": 0,
-      "y": -212,
+      "y": -195,
       "link": "./index.jsonld",
       "bgColor": "#ececec",
       "parent": "#this"
