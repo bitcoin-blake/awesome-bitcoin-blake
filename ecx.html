@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coins Without Keys</title>
+<meta name="description" content="At its fork, eCash (ECX) moved 506,352 coins from 10,127 untouched 2009 outputs with 232 transactions nobody signed. Why that breaks the one promise a fork makes, why it is the opposite of what XBT stands for, and why an XBT exchange should not be its market.">
+<link rel="canonical" href="https://bitcoin-blake.github.io/awesome-bitcoin-blake/ecx.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Awesome Bitcoin BLAKE">
+<meta property="og:title" content="Coins without keys: what ECX did at its fork">
+<meta property="og:description" content="232 unsigned transactions. 10,127 untouched 2009 outputs. 506,352 coins to 233 addresses. Why it matters, and why an XBT exchange shouldn't be its market.">
+<meta property="og:url" content="https://bitcoin-blake.github.io/awesome-bitcoin-blake/ecx.html">
+<meta property="og:image" content="https://bitcoin-blake.github.io/awesome-bitcoin-blake/ecx-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Coins without keys. ECX moved 506,352 coins from 2009 outputs with 232 unsigned transactions.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coins without keys: what ECX did at its fork">
+<meta name="twitter:description" content="232 unsigned transactions. 506,352 coins from untouched 2009 outputs, to 233 addresses.">
+<meta name="twitter:image" content="https://bitcoin-blake.github.io/awesome-bitcoin-blake/ecx-og.png">
+<meta name="theme-color" content="#14110f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23c2410c'/%3E%3Cpath d='M10 11h12M10 16h12M10 21h12' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf7f2; --bg2:#f1ece3; --ink:#1c1917; --ink2:#57534e; --rule:#e2dbd0;
+  --accent:#c2410c; --accent-soft:#fde4d4; --ok:#166534; --card:#ffffff;
+  --mono:"JetBrains Mono",ui-monospace,monospace; --serif:"Fraunces",Georgia,serif; --sans:"Inter",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14110f; --bg2:#1d1916; --ink:#f5f0e8; --ink2:#a8a29e; --rule:#2e2924;
+    --accent:#fb7a3c; --accent-soft:#3a1f12; --ok:#4ade80; --card:#1a1613;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14110f; --bg2:#1d1916; --ink:#f5f0e8; --ink2:#a8a29e; --rule:#2e2924;
+  --accent:#fb7a3c; --accent-soft:#3a1f12; --ok:#4ade80; --card:#1a1613;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.7 var(--sans)}
+a{color:var(--accent);text-underline-offset:3px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+header.hero{padding:72px 0 48px;border-bottom:1px solid var(--rule)}
+.kicker{font:600 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font:800 clamp(40px,8vw,72px)/1.02 var(--serif);letter-spacing:-.02em;margin:18px 0 22px}
+.lede{font:400 clamp(19px,2.6vw,23px)/1.55 var(--serif);color:var(--ink2);margin:0}
+.lede strong{color:var(--ink);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin:40px 0 0}
+.stat{background:var(--card);padding:18px 18px 16px}
+.stat b{display:block;font:600 clamp(26px,5vw,34px)/1.1 var(--mono);color:var(--ink);letter-spacing:-.02em}
+.stat span{display:block;font-size:14px;color:var(--ink2);margin-top:6px;line-height:1.4}
+@media (min-width:640px){.stats{grid-template-columns:repeat(4,1fr)}}
+section{padding:48px 0;border-bottom:1px solid var(--rule)}
+.num{font:600 12px/1 var(--mono);color:var(--accent);letter-spacing:.1em}
+h2{font:600 clamp(26px,4.4vw,34px)/1.2 var(--serif);letter-spacing:-.01em;margin:10px 0 18px}
+p{margin:0 0 1.1em}
+.pull{font:600 clamp(22px,3.6vw,28px)/1.35 var(--serif);border-left:3px solid var(--accent);padding:4px 0 4px 20px;margin:28px 0;color:var(--ink)}
+.quote{background:var(--bg2);border-radius:8px;padding:16px 20px;margin:20px 0;font-size:16px;color:var(--ink2)}
+.quote q{color:var(--ink);font-style:italic}
+code,.mono{font-family:var(--mono);font-size:.86em}
+code{background:var(--bg2);padding:1px 6px;border-radius:4px;word-break:break-all}
+.compare{display:grid;grid-template-columns:1fr;gap:14px;margin:24px 0}
+@media (min-width:640px){.compare{grid-template-columns:1fr 1fr}}
+.col{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:18px 20px}
+.col h3{font:600 13px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;margin:0 0 12px}
+.col.xbt h3{color:var(--ok)} .col.ecx h3{color:var(--accent)}
+.col ul{margin:0;padding-left:18px;font-size:16px;line-height:1.55}
+.col li{margin-bottom:8px}
+.objection{margin:26px 0}
+.objection h3{font:600 19px/1.4 var(--serif);margin:0 0 6px}
+.objection h3::before{content:"“";color:var(--accent)} .objection h3::after{content:"”";color:var(--accent)}
+.objection p{color:var(--ink2);margin:0}
+.ask{background:var(--accent-soft);border-radius:12px;padding:28px 24px;margin:8px 0 0}
+.ask h2{margin-top:0}
+.ask ol{margin:0;padding-left:22px}
+.ask li{margin-bottom:10px}
+pre{background:var(--bg2);border-radius:8px;padding:14px 16px;overflow-x:auto;font:400 13px/1.6 var(--mono);margin:12px 0 22px}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:18px 0 8px;background:var(--bg2)}
+.bar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--ink2)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+footer{padding:40px 0 64px;font-size:15px;color:var(--ink2)}
+.toggle{position:fixed;top:12px;right:12px;background:var(--card);color:var(--ink2);border:1px solid var(--rule);border-radius:999px;padding:6px 12px;font:500 13px var(--sans);cursor:pointer}
+</style>
+</head>
+<body>
+<button class="toggle" id="theme" aria-label="Toggle light or dark theme">◐ Theme</button>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">ECX · the eCash fork · block 973,768</div>
+    <h1>Coins without keys</h1>
+    <p class="lede">At its fork, eCash moved <strong>506,352 coins</strong> out of 10,127 outputs that had sat untouched since 2009, the coins commonly attributed to Satoshi, with <strong>232 transactions that nobody signed</strong>. Here is what happened, why it breaks the one promise every fork makes, and why the XBT community, and its exchanges, should want nothing to do with it.</p>
+    <div class="stats" role="list">
+      <div class="stat" role="listitem"><b>232</b><span>transactions with no signature check, written into consensus</span></div>
+      <div class="stat" role="listitem"><b>10,127</b><span>2009 coinbase outputs spent, every scriptSig empty</span></div>
+      <div class="stat" role="listitem"><b>506,352</b><span>coins moved, all in one block</span></div>
+      <div class="stat" role="listitem"><b>46%</b><span>of them to just 10 of the 233 receiving addresses</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section>
+  <div class="num">01 · WHAT HAPPENED</div>
+  <h2>A ledger rule that says: these coins don't need their key</h2>
+  <p>eCash (ticker ECX) is a hard fork of Bitcoin's SHA256d chain, led by Paul Sztorc of LayerTwo Labs, that went live at block 973,728. Everyone holding bitcoin at the snapshot got one ECX per BTC, controlled by the same keys. That part is an ordinary fork.</p>
+  <p>Then there is <code>src/repo_txns.h</code> in eCash's own node. It is a hard-coded list of 232 transaction IDs that the node calls <em>repurpose transactions</em>: their inputs are not checked for signatures. Any transaction on that list is valid without the owner's key.</p>
+  <p>All 232 were mined in <strong>ECX block 973,768</strong>, forty blocks after the fork. Between them they spend 10,127 inputs. Every input is a 50-coin coinbase output from 2009, paid to a bare public key, with an empty signature. The ones we sampled are from May 2009 and are <strong>still unspent on Bitcoin today</strong>. Their owner has not moved them in seventeen years. On ECX, they were moved for them.</p>
+  <p class="pull">On ECX, owning the key was not enough to keep the coins.</p>
+  <p>The press reported "about 500,000 coins to investors". The chain says 506,352, to 233 addresses. eCash's own description is that roughly 600,000 stay with Satoshi's addresses and the rest go to <q>investors who fund the project before launch</q>.</p>
+</section>
+
+<section>
+  <div class="num">02 · "BUT NO BITCOIN MOVED"</div>
+  <h2>True, and beside the point</h2>
+  <p>eCash's defence is accurate as far as it goes. Paul Sztorc:</p>
+  <div class="quote"><q>We do not take any of Satoshi's BTC. We gift Satoshi 600,000 eCash … BTC balances are untouched by eCash.</q> (via <a href="https://www.theblock.co/post/399054/we-dont-take-satoshis-bitcoin-ecash-fork-backlash-reassigned-coins">The Block</a>)</div>
+  <p>Nobody can move a satoshi on Bitcoin without the key, and eCash didn't. But think about what ECX <em>is</em>. A fork has nothing to offer except one promise: <strong>whatever your keys controlled before, they control after.</strong> That promise is the whole reason anyone values the new coin. It is why you get ECX at all.</p>
+  <p>ECX makes that promise to everyone, then breaks it for one holder. And it breaks it in the most self-serving direction possible, toward the people who paid for the fork. "We gift Satoshi 600,000" is a strange way to describe keeping 506,352 of someone else's coins for yourself. You cannot gift someone what was already theirs.</p>
+  <p class="pull">A ledger that honours keys for everyone except the people its developers choose doesn't have property rights. It has permissions.</p>
+</section>
+
+<section>
+  <div class="num">03 · WHO DECIDES WHAT'S ABANDONED?</div>
+  <h2>The precedent is the product</h2>
+  <p>The argument for taking these coins is that they look abandoned. They haven't moved in more than a decade, so surely nobody will mind.</p>
+  <p>Bitcoin's answer has always been that this is exactly the question nobody gets to ask. Coins in deep cold storage look abandoned. An inheritance waiting on a lawyer looks abandoned. A long-term holder who simply doesn't trade looks abandoned. The moment a chain's developers can decide that someone's coins are "unused", and move them by consensus to people who funded the work, every balance on that chain is provisional. It is held at the developers' pleasure.</p>
+  <p>That is why reasonable people across the spectrum objected, often people who agree on nothing else. Vijay Selvam: <q>sets a precedent that irreparably damages Bitcoin's monetary properties</q>. Beau Turner: <q>Bitcoin was created to preserve and protect inviolable property rights for everybody on earth</q> (both via <a href="https://www.coindesk.com/tech/2026/04/28/bitcoiners-are-calling-ecash-a-hard-fork-theft-but-it-doesn-t-even-touch-satoshi-s-btc">CoinDesk</a>). Even CoinDesk's own write-up conceded that it "reads as theft, even when no theft is technically occurring."</p>
+</section>
+
+<section>
+  <div class="num">04 · WHO GOT THEM</div>
+  <h2>Not spread out. Concentrated.</h2>
+  <p>The 506,352 coins went to 233 addresses, but not evenly:</p>
+  <div class="bar" role="img" aria-label="Top 10 addresses 46 percent, next 40 addresses 37 percent, remaining 183 addresses 17 percent">
+    <i style="width:46.3%;background:var(--accent)"></i><i style="width:36.5%;background:color-mix(in srgb,var(--accent) 45%,var(--bg2))"></i><i style="width:17.2%;background:var(--rule)"></i>
+  </div>
+  <div class="legend">
+    <span style="--c:var(--accent)">Top 10 addresses: 46%</span>
+    <span style="--c:color-mix(in srgb,var(--accent) 45%,var(--bg2))">Next 40: 37%</span>
+    <span style="--c:var(--rule)">Other 183: 17%</span>
+  </div>
+  <p style="margin-top:18px">The largest single address received 42,000 ECX. 87 addresses received a thousand or more. The chain cannot tell us who these people are. eCash tells us they are the investors who funded the fork. Either way, this is a <strong>pre-mine wearing a fork's clothes</strong>: a block of coins created for insiders, except the coins weren't created. They were taken from outputs whose owner never signed.</p>
+</section>
+
+<section>
+  <div class="num">05 · WHAT XBT STANDS FOR</div>
+  <h2>Rules, not rulers</h2>
+  <p>XBT came out of a fork too, so it's fair to ask what makes it different. The BLAKE2b fork changed <em>how blocks are mined</em>. It did not change <em>who owns what</em>. Every balance that existed at the split carried across. Replay protection is opt-in, per signature, so each holder decides when and how to split their own coins. Nobody's coins were moved for them.</p>
+  <div class="compare">
+    <div class="col xbt">
+      <h3>XBT's fork</h3>
+      <ul>
+        <li>Changed proof-of-work to BLAKE2b</li>
+        <li>Kept every balance as it was</li>
+        <li>Your key is the only way to move your coins</li>
+        <li>Replay protection you opt into, signature by signature</li>
+      </ul>
+    </div>
+    <div class="col ecx">
+      <h3>ECX's fork</h3>
+      <ul>
+        <li>Added Drivechains</li>
+        <li>Kept every balance, except the ones it chose</li>
+        <li>232 transactions valid without any key</li>
+        <li>506,352 coins to 233 addresses its backers say are investors</li>
+      </ul>
+    </div>
+  </div>
+  <p>XBT's whole case to the world is that it is the honest continuation: same coins, same owners, same rules about keys, better resistance to the mining concentration that threatened the old chain. Everything that makes that case credible is the thing ECX threw away. Being associated with ECX doesn't just look bad for XBT. It undercuts the argument XBT exists to make.</p>
+</section>
+
+<section>
+  <div class="num">06 · WHY A LISTING ISN'T NEUTRAL</div>
+  <h2>The market is the point</h2>
+  <p>Reassigned coins are only worth something if they can be sold. 506,352 ECX sitting in 233 addresses is a number on a ledger. 506,352 ECX with a spot market against USDT is money. The exchange that provides that market is the step where the coins taken at the fork turn into dollars.</p>
+  <p>As of 3 November 2026, <a href="https://ecash.com/buy/">ecash.com/buy</a> lists exactly one spot market for ECX. It is first on the page, and it is an XBT exchange. The other two entries, CoinW and GMO Coin, are listed only for distributing ECX to BTC holders.</p>
+  <p class="pull">When the project's own buy page sends people to you, you are not a bystander to the project. You are its exit.</p>
+  <p>That matters more for an exchange that is central to XBT. Its XBT market is where much of the community trades; wallets pull their XBT price from it. Whatever it lists, it lends some of XBT's credibility to.</p>
+</section>
+
+<section>
+  <div class="num">07 · THE OBJECTIONS</div>
+  <h2>And why they don't hold</h2>
+  <div class="objection">
+    <h3>People want to trade it. Exchanges aren't moral police.</h3>
+    <p>Most coins an exchange lists are speculative, many are silly, some are scams that hurt only the people who buy them. ECX is different in kind: its supply includes coins moved from someone who never consented, and the market is how the recipients realise them. The bar isn't "is this a good coin". It is "does listing this help someone cash out coins they took without a key". That bar is low, and ECX doesn't clear it.</p>
+  </div>
+  <div class="objection">
+    <h3>It lets ECX holders swap into XBT. That's good for XBT.</h3>
+    <p>Holders who received ECX the honest way, one per BTC under their own keys, can sell it on any venue that lists it. XBT gains very little from being the first on-ramp, and it is staking its reputation on a coin whose distribution contradicts everything XBT claims to be.</p>
+  </div>
+  <div class="objection">
+    <h3>Satoshi isn't coming back. Nobody is actually harmed.</h3>
+    <p>Nobody knows that, and that is exactly the point: the chain's developers decided it for him. If dormancy is a reason to move coins, every quiet holder is next in line. And the 233 recipients are harmed by nothing. They simply received half a million coins.</p>
+  </div>
+  <div class="objection">
+    <h3>Someone paid for the listing.</h3>
+    <p>Then the listing is a service sold to the project. That makes the question sharper, not softer.</p>
+  </div>
+</section>
+
+<section>
+  <div class="ask">
+    <div class="num">08 · THE ASK</div>
+    <h2>To the exchange: please delist ECX</h2>
+    <p>You have done a great deal for XBT, and that is exactly why this matters. We're not asking you to police every coin. We are asking you not to be the market for this one.</p>
+    <ol>
+      <li><strong>Delist ECX/USDT.</strong> Give holders notice and a withdrawal window, as you would for any delisting.</li>
+      <li><strong>Ask ecash.com to remove you from its buy page.</strong> Right now the project sends its buyers to you first.</li>
+      <li><strong>If you won't delist,</strong> at least put a plain warning on the market page, in your own words: that ECX's consensus rules moved 506,352 coins from 2009 outputs without signatures, to 233 addresses its backers describe as investors.</li>
+    </ol>
+    <p style="margin-bottom:0">XBT's reputation is that it kept everyone's coins exactly where they were. Its exchanges are part of that reputation.</p>
+  </div>
+</section>
+
+<section>
+  <div class="num">09 · CHECK IT YOURSELF</div>
+  <h2>Don't take our word for it</h2>
+  <p>Every number on this page comes from eCash's own code and eCash's own block explorer. Checked 3 November 2026.</p>
+  <p><strong>The list of unsigned transactions</strong>, in eCash's node at tag <code>ecash-v1.2.0-core32.1</code>: <a href="https://github.com/ecash-com/bitcoin/blob/ecash-v1.2.0-core32.1/src/repo_txns.h">src/repo_txns.h</a>.</p>
+  <pre>curl -s https://raw.githubusercontent.com/ecash-com/bitcoin/ecash-v1.2.0-core32.1/src/repo_txns.h \
+  | grep -oE '[0-9a-f]{64}' | wc -l        # 232</pre>
+  <p><strong>One of them on eCash's explorer</strong>: inputs of 50 coins each, paid to bare public keys, with an empty <code>scriptsig</code>.</p>
+  <pre>curl -s https://explorer.ecash.com/api/tx/db6dc9c1931c2887481a60e5e071e8de588712e7eb4c966f5a25262dfaad6460</pre>
+  <p><strong>The same coins are untouched on Bitcoin</strong>. This is the first input of the transaction above:</p>
+  <pre>curl -s https://mempool.space/api/tx/999e1c837c76a1b7fbb7e57baf87b309960f5ffefbf2a9b95dd890602272f644/outspend/0
+# {"spent":false}</pre>
+  <p>Fetch all 232 and add them up and you get 10,127 inputs, every one unsigned, 506,352 coins in, 233 addresses out, all confirmed in ECX block 973,768.</p>
+  <p style="font-size:15px;color:var(--ink2)">Two things the chain cannot prove, and this page doesn't claim it does. That these outputs belong to Satoshi rests on the widely accepted "Patoshi" attribution, which has never been proven. That the 233 addresses belong to investors is eCash's own description.</p>
+</section>
+
+</main>
+
+<footer class="wrap">
+  Published with <a href="https://github.com/bitcoin-blake/awesome-bitcoin-blake">Awesome Bitcoin BLAKE</a>, a curated list for the Bitcoin BLAKE2b chain. Corrections welcome as <a href="https://github.com/bitcoin-blake/awesome-bitcoin-blake/issues">issues</a>.
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement, KEY='ecx-theme';
+  try{var s=localStorage.getItem(KEY); if(s) root.setAttribute('data-theme',s);}catch(e){}
+  document.getElementById('theme').addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var next=cur==='dark'?'light':'dark'; root.setAttribute('data-theme',next);
+    try{localStorage.setItem(KEY,next);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>

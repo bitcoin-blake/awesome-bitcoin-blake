@@ -208,9 +208,16 @@ The two chains share history up to 961,631. A transaction signed the usual way i
 Listed because people ask, not as a recommendation. These are small custodial venues, so the usual rules apply twice over: keep only what you are trading there, and verify the deposit address on the exchange's own explorer before sending. The coin has no agreed ticker; venues use **XBT** or **BTCB2**, and XBT was an ordinary bitcoin ticker for years, so read the market's name, not just the symbol. A deposit signed the legacy way is a replayable transaction on both chains; split your coins with a unified-sighash self-send before trading. *All closed source and custodial.*
 
 - [NonKYC](https://nonkyc.io/market/BTCB2_USDT) - BTCB2/USDT. The exchange's own asset record names it "XBT (BTCB2 / Blake2b fork)".
-- [NeoxEX](https://neoxa.exchange/trade/BTCB2_USDC) - XBT/USDC spot market, URL uses BTCB2.
 - [SafeTrade](https://safetrade.com/exchange/XBT-USDT?type=basic) - XBT/USDT. Listed alongside a separate BTC market, so check you are on XBT.
 - [AltQuick](https://altquick.com/market/bitcoin-blake2b-bitcoin/) - BTC2B/BTC, a US exchange running since 2015 and the one BTC pair. Deposits use the same bech32 address for Bitcoin and BLAKE2b, so an unsplit send credits both; the exchange's own [asset page](https://altquick.com/) says so. Ticker BTC2B, not XBT.
+- ⚠️ [NeoxEX](https://neoxa.exchange/trade/BTCB2_USDC) - XBT/USDC spot market, URL uses BTCB2. **Also the market for ECX: read the warning below before using it.**
+
+> [!CAUTION]
+> **NeoxEX lists [ECX](https://neoxa.exchange/trade/ECX_USDT), a fork that moved coins without their owners' keys.** As of 3 November 2026 it is the first exchange and the only spot market on [ecash.com/buy](https://ecash.com/buy/).
+>
+> ECX's consensus rules carry [232 transactions whose inputs are not signature-checked](https://github.com/ecash-com/bitcoin/blob/ecash-v1.2.0-core32.1/src/repo_txns.h). Confirmed in ECX block 973,768, they moved **506,352 coins from 10,127 untouched 2009 coinbase outputs**, the coins commonly attributed to Satoshi, to 233 addresses that eCash says belong to its investors. No bitcoin moved; on ECX, the owner's key was not enough to keep them.
+>
+> **[Why this matters, and why we ask NeoxEX to delist ECX →](https://bitcoin-blake.github.io/awesome-bitcoin-blake/ecx.html)**
 
 ## Specs and documentation
 
