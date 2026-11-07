@@ -139,7 +139,7 @@ Spread your hashrate. In early September 2026 one pool held over a third of the 
 ### Hashrate rental
 
 - [MiningRigRentals BLAKE2b](https://www.miningrigrentals.com/rigs/blake2b) - Marketplace for renting Sia-family BLAKE2b rigs by the hour, priced per TH/s. Point a rental at your own DATUM Gateway's stratum port to mine the chain without owning hardware. *Commercial service, account and prepaid balance required.* The same market is what makes a low-hashrate chain cheap to attack, so treat rented hash as a test tool, not a security model.
-- [RouteHash](https://routehash.com/) - Marketplace for listing and renting Blake2b hashrate, priced in BTC per TH per day. The ASIC stays on stratum.routehash.com:23335. A rental hashes to the renter's own DATUM listen, or to RouteHash House Pool. Miners can take the rental credit in BTC or spendable XBT. *Commercial service, account required. Closed source.*
+- [RouteHash](https://routehash.com/) - Marketplace for listing and renting Blake2b hashrate. A miner takes the rental credit in spendable XBT or BTC. Listings stay priced in BTC per TH per day. The ASIC stays on stratum.routehash.com:23335. A rental hashes to the renter's own DATUM listen, or to RouteHash House Pool. *Commercial service, account required. Closed source.*
 
 ### Mining guides
 
